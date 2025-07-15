@@ -35,7 +35,7 @@ FROM base AS production
 # Copy built application from build stage
 COPY --from=build /app/dist ./dist
 COPY --from=build /app/package*.json ./
-
+COPY --from=build /app/creds.json ./
 
 # Create non-root user for security
 RUN addgroup -g 1001 -S nodejs
