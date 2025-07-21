@@ -41,7 +41,19 @@ export class BotService {
 
   private setupHandlers(): void {
     this.bot.on('message', async (msg: any) => {
-      if (msg.text) {
+      // Ignorar mensajes del propio bot
+      if (msg.from.is_bot) {
+        return;
+      }
+      
+      // Manejar comandos especiales
+      if (msg.text && msg.text.startsWith('/')) {
+        await this.handleCommand(msg.chat.id, msg.text);
+        return;
+      }
+      
+      // Procesar solo mensajes de texto que no sean comandos
+      if (msg.text && !msg.text.startsWith('/')) {
         await this.handleMessage(msg.chat.id, msg.text);
       }
     });
@@ -51,8 +63,49 @@ export class BotService {
     });
   }
 
+  private async handleCommand(chatId: number, command: string): Promise<void> {
+    const cmd = command.toLowerCase();
+    
+    switch (cmd) {
+      case '/start':
+        await this.bot.sendMessage(chatId, 
+          '👋 ¡Hola! Soy tu bot de facturación.\n\n' +
+          'Envíame los detalles de un pedido y lo procesaré automáticamente.\n\n' +
+          'Ejemplo:\n' +
+          'Luciana Toro\n' +
+          'CC 1047382910\n' +
+          'Kit 001 + Kit 009\n' +
+          '311 2345678\n' +
+          'luciana@gmail.com'
+        );
+        break;
+        
+      case '/help':
+        await this.bot.sendMessage(chatId, 
+          '📋 Comandos disponibles:\n' +
+          '/start - Mensaje de bienvenida\n' +
+          '/help - Esta ayuda\n\n' +
+          'Para crear una factura, simplemente envía los datos del cliente y productos.'
+        );
+        break;
+        
+      default:
+        await this.bot.sendMessage(chatId, 
+          '❓ Comando no reconocido. Usa /help para ver los comandos disponibles.'
+        );
+    }
+  }
+
   private async handleMessage(chatId: number, message: string): Promise<void> {
     try {
+      // Validar que el mensaje tenga contenido útil
+      if (!message || message.trim().length < 10) {
+        await this.bot.sendMessage(chatId, 
+          '❌ El mensaje es muy corto. Por favor envía los datos completos del pedido.'
+        );
+        return;
+      }
+
       console.log(`📨 Mensaje recibido: ${message}`);
       
       await this.bot.sendMessage(chatId, '📋 Procesando mensaje, por favor espera...');
@@ -91,18 +144,142 @@ export class BotService {
         email: extractedData.email,
       }));
 
+      // Guardar los datos de la compra
       const success = await this.sheetsService.insertDataToSheet(sheetRows);
 
-      if (success) {
-        const summary = this.generateSummary(extractedData, facturaId, fechaRegistro);
-        await this.bot.sendMessage(chatId, `✅ ${summary}`, { parse_mode: 'Markdown' });
-      } else {
+      if (!success) {
         await this.bot.sendMessage(chatId, '❌ Error al guardar los datos en Google Sheets.');
+        return;
       }
+
+      // Procesar información del cliente
+      await this.processClientData(extractedData, fechaRegistro);
+
+      const summary = this.generateSummary(extractedData, facturaId, fechaRegistro);
+      await this.bot.sendMessage(chatId, `✅ ${summary}`, { parse_mode: 'Markdown' });
 
     } catch (error) {
       console.error('Error al procesar mensaje:', error);
       await this.bot.sendMessage(chatId, '❌ Error interno del servidor.');
+    }
+  }
+
+  private async processClientData(extractedData: ExtractedData, fechaRegistro: string): Promise<void> {
+    try {
+      console.log('👤 Procesando información del cliente...');
+      console.log('📧 Email extraído:', extractedData.email);
+      console.log('👤 Cliente extraído:', extractedData.cliente);
+  
+      const email = extractedData.email;
+      if (!email || email === 'No identificado' || email === 'N/A') {
+        console.log('⚠️ Email no válido, saltando actualización de cliente');
+        console.log('⚠️ Email recibido:', email);
+        return;
+      }
+  
+      console.log('🔍 Buscando cliente existente con email:', email);
+  
+      // Buscar cliente existente
+      const existingClient = await this.sheetsService.getClientByEmail(email);
+      
+      console.log('🔍 Resultado de búsqueda:', existingClient ? 'Cliente encontrado' : 'Cliente no encontrado');
+      
+      if (existingClient) {
+        console.log('🔄 Cliente existente encontrado, actualizando estadísticas...');
+        console.log('👤 Datos del cliente existente:', existingClient);
+        
+        // Obtener historial de compras del cliente
+        const purchaseHistory = await this.sheetsService.getClientPurchaseHistory(email);
+        console.log('📊 Historial de compras obtenido:', purchaseHistory.length, 'compras');
+        
+        // Calcular nuevas estadísticas
+        const totalCompras = purchaseHistory.length;
+        const totalGastado = purchaseHistory.reduce((sum, purchase) => sum + purchase.total, 0);
+        const ticketPromedio = totalCompras > 0 ? totalGastado / totalCompras : 0;
+        
+        // Obtener productos únicos
+        const productosUnicos = new Set(purchaseHistory.map(p => p.codigo)).size;
+        
+        // Calcular frecuencia de compra (días promedio entre compras)
+        let frecuenciaCompra = 0;
+        if (purchaseHistory.length > 1) {
+          const fechas = purchaseHistory.map(p => new Date(p.fecha)).sort((a, b) => a.getTime() - b.getTime());
+          const diasEntreFechas: number[] = [];
+          
+          for (let i = 1; i < fechas.length; i++) {
+            const diffTime = fechas[i].getTime() - fechas[i-1].getTime();
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            diasEntreFechas.push(diffDays);
+          }
+          
+          frecuenciaCompra = diasEntreFechas.length > 0 
+            ? Math.round(diasEntreFechas.reduce((sum, days) => sum + days, 0) / diasEntreFechas.length)
+            : 0;
+        }
+  
+        const updates = {
+          numeroCompras: totalCompras,
+          totalGastado: totalGastado,
+          ticketPromedio: ticketPromedio,
+          productosUnicos: productosUnicos,
+          frecuenciaCompra: frecuenciaCompra,
+          primeraCompra: existingClient.primeraCompra,
+          ultimaCompra: fechaRegistro
+        };
+  
+        console.log('📊 Actualizaciones calculadas:', updates);
+  
+        const updateSuccess = await this.sheetsService.updateClient(email, updates);
+  
+        if (updateSuccess) {
+          console.log('✅ Cliente actualizado exitosamente');
+        } else {
+          console.log('❌ Error al actualizar cliente');
+        }
+  
+      } else {
+        console.log('➕ Cliente nuevo, agregando a la base de datos...');
+        
+        // Extraer cédula del mensaje si está disponible
+        const cedulaMatch = extractedData.cliente.match(/CC\s*(\d+)/i);
+        const cedula = cedulaMatch ? cedulaMatch[1] : '';
+  
+        console.log('🆔 Cédula extraída:', cedula);
+  
+        // Generar ID único para el cliente
+        const clientId = await this.sheetsService.getNextClientId();
+        console.log('🆔 ID generado para cliente:', clientId);
+  
+        const totalCompra = extractedData.productos.reduce((sum, p) => sum + p.total, 0);
+  
+        const newClient = {
+          id: clientId,
+          nombre: extractedData.cliente.replace(/CC\s*\d+/i, '').trim(),
+          cedula: cedula,
+          email: email,
+          fechaCumpleanos: extractedData.fechaCumpleanos || '', // Usar la fecha extraída por Gemini
+          numeroCompras: 1,
+          totalGastado: totalCompra,
+          ticketPromedio: totalCompra,
+          productosUnicos: extractedData.productos.length,
+          frecuenciaCompra: 0, // Primera compra
+          primeraCompra: fechaRegistro,
+          ultimaCompra: fechaRegistro
+        };
+  
+        console.log('👤 Datos del nuevo cliente a agregar:', newClient);
+  
+        const addSuccess = await this.sheetsService.addNewClient(newClient);
+  
+        if (addSuccess) {
+          console.log('✅ Nuevo cliente agregado exitosamente');
+        } else {
+          console.log('❌ Error al agregar nuevo cliente');
+        }
+      }
+  
+    } catch (error) {
+      console.error('Error al procesar datos del cliente:', error);
     }
   }
 
