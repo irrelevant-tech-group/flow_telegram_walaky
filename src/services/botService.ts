@@ -45,20 +45,21 @@ export class BotService {
       if (msg.from.is_bot) {
         return;
       }
-      
+      // Manejar comandos especiales
+      if (msg.text.trim() === '/status') {
+        await this.handleStatusCommand(msg.chat.id);
+        return;
+      }
+
       // Manejar comandos especiales
       if (msg.text && msg.text.startsWith('/')) {
         await this.handleCommand(msg.chat.id, msg.text);
         return;
       }
+
       
       // Procesar solo mensajes de texto que no sean comandos
       if (msg.text && !msg.text.startsWith('/')) {
-        // Comando especial de status
-        if (msg.text.trim() === '/status') {
-          await this.handleStatusCommand(msg.chat.id);
-          return;
-        }
         await this.handleMessage(msg.chat.id, msg.text);
       }
     });
@@ -287,6 +288,7 @@ export class BotService {
     } catch (error) {
       console.error('Error al procesar datos del cliente:', error);
     }
+  }
 
   // Nuevo método para manejar el comando /status
   private async handleStatusCommand(chatId: number): Promise<void> {
