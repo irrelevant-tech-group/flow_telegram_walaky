@@ -45,12 +45,18 @@ export class BotService {
       if (msg.from.is_bot) {
         return;
       }
-      
+      // Manejar comandos especiales
+      if (msg.text.trim() === '/status') {
+        await this.handleStatusCommand(msg.chat.id);
+        return;
+      }
+
       // Manejar comandos especiales
       if (msg.text && msg.text.startsWith('/')) {
         await this.handleCommand(msg.chat.id, msg.text);
         return;
       }
+
       
       // Procesar solo mensajes de texto que no sean comandos
       if (msg.text && !msg.text.startsWith('/')) {
@@ -163,6 +169,7 @@ export class BotService {
       await this.bot.sendMessage(chatId, '❌ Error interno del servidor.');
     }
   }
+
 
   private async processClientData(extractedData: ExtractedData, fechaRegistro: string): Promise<void> {
     try {
@@ -281,6 +288,40 @@ export class BotService {
     } catch (error) {
       console.error('Error al procesar datos del cliente:', error);
     }
+  }
+
+  // Nuevo método para manejar el comando /status
+  private async handleStatusCommand(chatId: number): Promise<void> {
+    let statusMsg = '🔎 *Estado de conexión a Google Sheets:*\n\n';
+    // Verificar Products Sheet
+    try {
+      const products = await this.sheetsService.getProductsFromSheet();
+      if (products.length > 0) {
+        statusMsg += '✅ Conexión exitosa a PRODUCTS_SHEET_ID. Productos encontrados: ' + products.length + '\n';
+      } else {
+        statusMsg += '⚠️ Conexión a PRODUCTS_SHEET_ID realizada, pero no se encontraron productos o la hoja está vacía.\n';
+      }
+    } catch (error: any) {
+      statusMsg += '❌ Error en PRODUCTS_SHEET_ID: ' + (error.message || error.toString()) + '\n';
+    }
+    // Verificar Destination Sheet (intentando insertar una fila de prueba y borrarla sería lo ideal, pero aquí solo probamos acceso)
+    try {
+      // Intentar leer encabezados para verificar acceso
+      const DESTINATION_SHEET_ID = process.env.DESTINATION_SHEET_ID;
+      const response = await this.sheetsService["sheets"].spreadsheets.values.get({
+        spreadsheetId: DESTINATION_SHEET_ID,
+        range: 'A1:J1',
+      });
+      if (response.data && response.data.values) {
+        statusMsg += '✅ Conexión exitosa a DESTINATION_SHEET_ID.\n';
+      } else {
+        statusMsg += '⚠️ Conexión a DESTINATION_SHEET_ID realizada, pero no se obtuvieron datos.\n';
+      }
+    } catch (error: any) {
+      statusMsg += '❌ Error en DESTINATION_SHEET_ID: ' + (error.message || error.toString()) + '\n';
+    }
+    await this.bot.sendMessage(chatId, statusMsg, { parse_mode: 'Markdown' });
+
   }
 
   private generateCurrentDate(): string {

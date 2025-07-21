@@ -1,0 +1,34 @@
+services:
+  telegram-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: walaky-telegram-bot
+    restart: unless-stopped
+    environment:
+      # Telegram Bot Configuration
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      
+      # Google Gemini AI Configuration
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      
+      # Google Sheets Configuration
+      - PRODUCTS_SHEET_ID=${PRODUCTS_SHEET_ID}
+      - DESTINATION_SHEET_ID=${DESTINATION_SHEET_ID}
+      
+      # Optional: Node environment
+      - NODE_ENV=production
+    volumes:
+      # Mount credentials file
+      - ./creds.json:/app/creds.json:ro
+      # Mount logs directory (optional)
+      - ./logs:/app/logs
+    networks:
+      - walaky-network
+    env_file:
+      - .env
+
+networks:
+  walaky-network:
+    driver: bridge 
