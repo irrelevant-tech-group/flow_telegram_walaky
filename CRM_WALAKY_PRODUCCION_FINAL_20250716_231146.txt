@@ -1,0 +1,5192 @@
+================================================================================
+                                CRM WALAKY - PRODUCCIÓN OFICIAL FINAL
+================================================================================
+
+Total de clientes: 740
+Fecha de extracción: 16/07/2025 23:11:46
+Procesado con: Claude AI + Filtros inteligentes + Extracción AI
+Costo total sesión: $1.1563
+Requests totales: 2237
+
+================================================================================
+
+CLIENTE 001
+------------------------------
+Nombre: Natalia Ramirez
+Cédula: 1053608225
+Email: natalia9007@gmail.com
+Fecha cumpleaños: Julio 10
+
+CLIENTE 002
+------------------------------
+Nombre: Leidy Laguna
+Cédula: 1036659305
+Email: leidylaguna90@gmail.com
+Fecha cumpleaños: 07/05
+
+CLIENTE 003
+------------------------------
+Nombre: Isabella Correa Jiménez
+Cédula: 1023623544
+Email: isabellacollabs6@gmail.com
+Fecha cumpleaños: 06 de junio
+
+CLIENTE 004
+------------------------------
+Nombre: Claudia Margarita Vásquez Ortegón
+Cédula: 52800935
+Email: lalavasqt@hotmail.com
+Fecha cumpleaños: 22 de abril
+
+CLIENTE 005
+------------------------------
+Nombre: Daniela Vanegas
+Cédula: 1193394758
+Email: danielavanega17@gmail.com
+Fecha cumpleaños: 31 de octubre
+
+CLIENTE 006
+------------------------------
+Nombre: Lina Marcela Bonilla Benítez
+Cédula: 1128415465
+Email: linam.bonillab@gmail.com
+Fecha cumpleaños: 09 de junio
+
+CLIENTE 007
+------------------------------
+Nombre: Brayan Henao
+Cédula: 1214746102
+Email: brayanhenaor@gmail.com
+Fecha cumpleaños: 31 de Marzo
+
+CLIENTE 008
+------------------------------
+Nombre: Manuela Mosquera Sierra
+Cédula: 1036448389
+Email: manuelamosque@gmail.com
+Fecha cumpleaños: 22 de julio
+
+CLIENTE 009
+------------------------------
+Nombre: Durley Arango
+Cédula: 32255690
+Email: tatiarango32@gmail.com
+Fecha cumpleaños: 28 de julio
+
+CLIENTE 010
+------------------------------
+Nombre: Marcela Quintero
+Cédula: 1128418165
+Email: marcela.quintero18@hotmail.com
+Fecha cumpleaños: 18de noviembre
+
+CLIENTE 011
+------------------------------
+Nombre: Carolina Echeverri Ospina
+Cédula: 1037618826
+Email: carito19927@msn.com
+Fecha cumpleaños: 27 de marzo
+
+CLIENTE 012
+------------------------------
+Nombre: Manuela Franco Espinel
+Cédula: 1007901033
+Email: manufe8@hotmail.com
+Fecha cumpleaños: 23 de agosto
+
+CLIENTE 013
+------------------------------
+Nombre: Laura Milena Cardona
+Cédula: 1039468458
+Email: laurcar_1@hotmail.com
+Fecha cumpleaños: 01 de noviembre
+
+CLIENTE 014
+------------------------------
+Nombre: Mariana Paipa
+Cédula: 1037657024
+Email: marianapaipa@gmail.com
+Fecha cumpleaños: 23 de junio
+
+CLIENTE 015
+------------------------------
+Nombre: Daniela Arango
+Cédula: 1001480087
+Email: naniix2018@gmail.com
+Fecha cumpleaños: 24 de abril
+
+CLIENTE 016
+------------------------------
+Nombre: Isabela Álvarez
+Cédula: 1022002958
+Email: isabelaalvarezrios7@gmail.com
+Fecha cumpleaños: 14 de octubre
+
+CLIENTE 017
+------------------------------
+Nombre: Glen Obrallan Pérez Celis
+Cédula: 1020422042
+Email: glenobrallanperezcelis@gmail.com
+Fecha cumpleaños: 24 de marzo
+
+CLIENTE 018
+------------------------------
+Nombre: Geraldin Andrea Bedoya Henao
+Cédula: 1001685703
+Email: geralyalejo0905@gmail.com
+Fecha cumpleaños: 09 de mayo
+
+CLIENTE 019
+------------------------------
+Nombre: Ashley Bedoya
+Cédula: 1126565767
+Email: ashleyvalentina727@gmail.com
+Fecha cumpleaños: 31 de marzo
+
+CLIENTE 020
+------------------------------
+Nombre: Alexandra Acevedo Caselles
+Cédula: 1098771200
+Email: alexa.18a@hotmail.com
+Fecha cumpleaños: 18 de marzo
+
+CLIENTE 021
+------------------------------
+Nombre: Valeria Molano Montoya
+Cédula: 1000382381
+Email: valeriamolano1101@gmail.com
+Fecha cumpleaños: 02 de agosto
+
+CLIENTE 022
+------------------------------
+Nombre: Betsy Córdoba Sánchez
+Cédula: 1036662104
+Email: bgcs1995@hotmail.com
+Fecha cumpleaños: 18 de septiembre
+
+CLIENTE 023
+------------------------------
+Nombre: Mar Mejía
+Cédula: 1030648320
+Email: mejiaqmar@gmail.com
+Fecha cumpleaños: 19 de diciembre
+
+CLIENTE 024
+------------------------------
+Nombre: Nathaly La Rotta Salamanca
+Cédula: 1010199635
+Email: nlarottas@unal.edu.co
+Fecha cumpleaños: 05 de octubre
+
+CLIENTE 025
+------------------------------
+Nombre: Alicia Varón
+Cédula: 1015070559
+Email: aliciavaron15@gmail.com
+Fecha cumpleaños: 19 de julio
+
+CLIENTE 026
+------------------------------
+Nombre: Vanessa Henao Toro
+Cédula: 1004734395
+Email: vanessaht02@gmail.com
+Fecha cumpleaños: 19 de febrero
+
+CLIENTE 027
+------------------------------
+Nombre: Diana Ibarra
+Cédula: 1130678636
+Email: dianita_287@hotmail.com
+Fecha cumpleaños: 18 de diciembre
+
+CLIENTE 028
+------------------------------
+Nombre: Paola Mejía Sánchez
+Cédula: 1040184093
+Email: paolamejia1344@gmail.com
+Fecha cumpleaños: 27 de junio
+
+CLIENTE 029
+------------------------------
+Nombre: Juliana Herrera González
+Cédula: 31785198
+Email: juli202013@icloud.com
+Fecha cumpleaños: 20 julio
+
+CLIENTE 030
+------------------------------
+Nombre: María Fernanda Guerrero Meneses
+Cédula: 1006170181
+Email: fernanda-mgm@hotmail.com
+Fecha cumpleaños: 10 de febrero
+
+CLIENTE 031
+------------------------------
+Nombre: Daniela Villamizar
+Cédula: 1098823052
+Email: danielav_99@hotmail.com
+Fecha cumpleaños: 18 de septiembre
+
+CLIENTE 032
+------------------------------
+Nombre: Maria Alfaro
+Cédula: 1105367131
+Email: mariadelmar40706@gmail.com
+Fecha cumpleaños: 07 de abril
+
+CLIENTE 033
+------------------------------
+Nombre: Lina María Cortés
+Cédula: 1030684462
+Email: linamaria.cortes@hotmail.com
+Fecha cumpleaños: 27 de enero
+
+CLIENTE 034
+------------------------------
+Nombre: Katherine Salas
+Cédula: 1233691218
+Email: zkatherinesalas@gmail.com
+Fecha cumpleaños: 31 de julio
+
+CLIENTE 035
+------------------------------
+Nombre: Elizabeth Mayag
+Cédula: 1087416531
+Email: certificados04@gmail.com
+Fecha cumpleaños: 07 de septiembre
+
+CLIENTE 036
+------------------------------
+Nombre: Isabella Carvajal
+Cédula: 1035442223
+Email: isabellac2999@gmail.com
+Fecha cumpleaños: 29 de abril
+
+CLIENTE 037
+------------------------------
+Nombre: Camila Calvo
+Cédula: 1014299533
+Email: camilaccalvo23@gmail.com
+Fecha cumpleaños: 23 de agosto
+
+CLIENTE 038
+------------------------------
+Nombre: Michel López
+Cédula: 1012330984
+Email: michelopez172005@gmail.com
+Fecha cumpleaños: 26 de enero
+
+CLIENTE 039
+------------------------------
+Nombre: Mónica Tatiana Aguilar Vargas
+Cédula: 1099364303
+Email: monicatatianaaguilar@gmail.com
+Fecha cumpleaños: 05 de octubre
+
+CLIENTE 040
+------------------------------
+Nombre: Johanna Suanca
+Cédula: 1033770432
+Email: johannaasuancav@gmail.com
+Fecha cumpleaños: 04 de noviembre
+
+CLIENTE 041
+------------------------------
+Nombre: Laura Rodríguez Marín
+Cédula: 1017264670
+Email: laurarodriguezmarin20@gmail.com
+Fecha cumpleaños: 20 de noviembre
+
+CLIENTE 042
+------------------------------
+Nombre: Isabella Duque Ramírez
+Cédula: 1114148309
+Email: isabelladuquer20@gmail.com
+Fecha cumpleaños: 20 de febrero
+
+CLIENTE 043
+------------------------------
+Nombre: Laura Stephania Díaz Bejarano
+Cédula: 1015476334
+Email: lauritadb13@gmail.com
+Fecha cumpleaños: 13 de agosto
+
+CLIENTE 044
+------------------------------
+Nombre: Laura Ortiz
+Cédula: 1080934531
+Email: lauortizv93@gmail.com
+Fecha cumpleaños: 03 de marzo
+
+CLIENTE 045
+------------------------------
+Nombre: Anggie Alejandra Maldonado Moreno
+Cédula: 1098807565
+Email: anggie.maldonadomoreno@gmail.com
+Fecha cumpleaños: 08 de junio
+
+CLIENTE 046
+------------------------------
+Nombre: Mariana Muñoz Gómez
+Cédula: 1000296250
+Email: Marianamunozg1807@gmail.com
+Fecha cumpleaños: 18/07
+
+CLIENTE 047
+------------------------------
+Nombre: Valentina Ortega Florez
+Cédula: 1000719410
+Email: valenortegapil69@gmail.com
+Fecha cumpleaños: 5 de abril
+
+CLIENTE 048
+------------------------------
+Nombre: Carolina González Castaño
+Cédula: 1128452560
+Email: carogc@outlook.com
+Fecha cumpleaños: 07 de octubre
+
+CLIENTE 049
+------------------------------
+Nombre: Sara Quintero Castaño
+Cédula: 1007253263
+Email: saliquica@hotmail.com
+Fecha cumpleaños: 03 de noviembre
+
+CLIENTE 050
+------------------------------
+Nombre: Ana maria Florez
+Cédula: 1037644183
+Email: anafs_12@hotmail.com
+Fecha cumpleaños: 19 de agosto
+
+CLIENTE 051
+------------------------------
+Nombre: Daniela Jimenez
+Cédula: 1000101064
+Email: danielajimenezarg@gmail.com
+Fecha cumpleaños: 7 abril
+
+CLIENTE 052
+------------------------------
+Nombre: Ana Cristina Grajales
+Cédula: 1152471521
+Email: cgp0799@gmail.com
+Fecha cumpleaños: 07 de octubre
+
+CLIENTE 053
+------------------------------
+Nombre: Juanita Villada Chaverra
+Cédula: 1018235980
+Email: juanita.vdc23@gmail.com
+Fecha cumpleaños: 23 de enero
+
+CLIENTE 054
+------------------------------
+Nombre: Juanita Mora
+Cédula: 1003893562
+Email: juanita.mora2113@gmail.com
+Fecha cumpleaños: 17 de mayo
+
+CLIENTE 055
+------------------------------
+Nombre: María Isabel Castro
+Cédula: 32244614
+Email: m.aisa.23@hotmail.com
+Fecha cumpleaños: 10 de enero
+
+CLIENTE 056
+------------------------------
+Nombre: Laura Cortés Cardona
+Cédula: 1152215997
+Email: lauracris1897@gmail.com
+Fecha cumpleaños: 18 de enero
+
+CLIENTE 057
+------------------------------
+Nombre: lorenzo
+Cédula: 
+Email: lorenzo_17@hotmail.com
+Fecha cumpleaños: 
+
+CLIENTE 058
+------------------------------
+Nombre: Estefanía Isaza
+Cédula: 1035871785
+Email: estefaisaza08@gmail.com
+Fecha cumpleaños: 10 de agosto
+
+CLIENTE 059
+------------------------------
+Nombre: Bibiana Monsalve
+Cédula: 43622172
+Email: ladino13bibi@hotmail.com
+Fecha cumpleaños: 13 de septiembre
+
+CLIENTE 060
+------------------------------
+Nombre: Mildrey Hoyos Giraldo
+Cédula: 1001646797
+Email: nildreyhoyos@gmail.com
+Fecha cumpleaños: 17 de mayo
+
+CLIENTE 061
+------------------------------
+Nombre: María José Lopera
+Cédula: 1037660873
+Email: maria_joselopera@hotmail.com
+Fecha cumpleaños: 09 de diciembre
+
+CLIENTE 062
+------------------------------
+Nombre: Alejandra Espinosa Henao
+Cédula: 1053845755
+Email: jealeshe@hotmail.com
+Fecha cumpleaños: 12 de octubre
+
+CLIENTE 063
+------------------------------
+Nombre: Lina Fajardo
+Cédula: 1013665999
+Email: lina10114@hotmail.com
+Fecha cumpleaños: 18 de marzo
+
+CLIENTE 064
+------------------------------
+Nombre: Angie Ximena López Loaiza
+Cédula: 1002545770
+Email: ximenaanaloaiza@gmail.com
+Fecha cumpleaños: 02 de enero
+
+CLIENTE 065
+------------------------------
+Nombre: Gheraldine León
+Cédula: 1152466689
+Email: gheral9828@gmail.com
+Fecha cumpleaños: 28 de junio
+
+CLIENTE 066
+------------------------------
+Nombre: Laura Cortés Cardona
+Cédula: 1152215997
+Email: lauracris1897@gmail.com
+Fecha cumpleaños: 18 de enero
+
+CLIENTE 067
+------------------------------
+Nombre: Alison Bedoya Salazar
+Cédula: 1045047798
+Email: alisson20040926@gmail.com
+Fecha cumpleaños: 26 de septiembre
+
+CLIENTE 068
+------------------------------
+Nombre: Maria Camila Restrepo
+Cédula: 1146441389
+Email: mariacamilara97@hotmail.com
+Fecha cumpleaños: 25 de julio
+
+CLIENTE 069
+------------------------------
+Nombre: Xiomara Correa Bañol
+Cédula: 1002854943
+Email: xcorrea606@gmail.com
+Fecha cumpleaños: 26 de septiembre
+
+CLIENTE 070
+------------------------------
+Nombre: Mariana Ossa Briceño
+Cédula: 1000645030
+Email: marianaossabri@gmail.com
+Fecha cumpleaños: 27 de enero
+
+CLIENTE 071
+------------------------------
+Nombre: Sara María Diez Álzate
+Cédula: 1193094825
+Email: 
+Fecha cumpleaños: 21 de mayo
+
+CLIENTE 072
+------------------------------
+Nombre: Manuela Montoya
+Cédula: 1001506076
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 073
+------------------------------
+Nombre: Mayra Alejandra
+Cédula: 1024464080
+Email: aleja687@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 074
+------------------------------
+Nombre: Ana Palau
+Cédula: 1107075456
+Email: anapalaur@gmail.com
+Fecha cumpleaños: 23 de marzo
+
+CLIENTE 075
+------------------------------
+Nombre: María Camila Martínez
+Cédula: 1017235908
+Email: cami22615@gmail.com
+Fecha cumpleaños: 02 de febrero
+
+CLIENTE 076
+------------------------------
+Nombre: Danny Steffany Amaya Solano
+Cédula: 
+Email: primortiendamultimarca@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 077
+------------------------------
+Nombre: Vanesa Osorio
+Cédula: 1017205067
+Email: vanesa2011@hotmail.com
+Fecha cumpleaños: 11 de mayo
+
+CLIENTE 078
+------------------------------
+Nombre: Yuliana Valencia Marín
+Cédula: 1020492552
+Email: yulivalencia753@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 079
+------------------------------
+Nombre: Karol Franco
+Cédula: 1005289577
+Email: karol.franco-g@uniminuto.edu.co
+Fecha cumpleaños: 12 de diciembre
+
+CLIENTE 080
+------------------------------
+Nombre: Adriana Lucía Blanco Ávila
+Cédula: 1101461897
+Email: aluciablanco13@gmail.com
+Fecha cumpleaños: 13 de septiembre
+
+CLIENTE 081
+------------------------------
+Nombre: María Andrea Ustariz Cabas
+Cédula: 1066270986
+Email: maustariz@gmail.com
+Fecha cumpleaños: 31 de agosto
+
+CLIENTE 082
+------------------------------
+Nombre: Oscar Ignacio Chaverra Cano
+Cédula: 70134834
+Email: facturacioncocopinkstore@gmail.com
+Fecha cumpleaños: 02 de enero
+
+CLIENTE 083
+------------------------------
+Nombre: Valentina Díaz
+Cédula: 192779041
+Email: divalen1008@gmail.com
+Fecha cumpleaños: 01 de octubre
+
+CLIENTE 084
+------------------------------
+Nombre: Jerelyn Monsalve Mejía
+Cédula: 1152710302
+Email: jerelyn.monsalveme@amigo.edu.co
+Fecha cumpleaños: 29 de octubre
+
+CLIENTE 085
+------------------------------
+Nombre: María Camila Ramírez Cañas
+Cédula: 1001390197
+Email: ramirezcamila421@gmail.com
+Fecha cumpleaños: 15 de febrero
+
+CLIENTE 086
+------------------------------
+Nombre: Alejandra Ríos Franco
+Cédula: 1039695641
+Email: alejandritarios@hotmail.com
+Fecha cumpleaños: 12 de agosto
+
+CLIENTE 087
+------------------------------
+Nombre: Sara Milena villa David
+Cédula: 1152687427
+Email: Saravilla.david@gmail.com
+Fecha cumpleaños: 18-08
+
+CLIENTE 088
+------------------------------
+Nombre: Daniela Garcia Polanco
+Cédula: 1113684963
+Email: danielag.23p@gmail.com
+Fecha cumpleaños: 23 de marzo
+
+CLIENTE 089
+------------------------------
+Nombre: Isabella Bernal Arroyo
+Cédula: 1000076462
+Email: sabelli01@hotmail.com
+Fecha cumpleaños: 08 de abril
+
+CLIENTE 090
+------------------------------
+Nombre: Wendy Montoya Oquendo
+Cédula: 1000766618
+Email: fmontoya1231@gmail.com
+Fecha cumpleaños: 23 de julio
+
+CLIENTE 091
+------------------------------
+Nombre: Sara Cardona Quintero
+Cédula: 1105364548
+Email: saracardonaquintero@gmail.com
+Fecha cumpleaños: 27 de junio
+
+CLIENTE 092
+------------------------------
+Nombre: Luisa Fernanda Díaz
+Cédula: 1011084644
+Email: luisafr232@gmail.com
+Fecha cumpleaños: 23 de mayo
+
+CLIENTE 093
+------------------------------
+Nombre: Karen Ríos
+Cédula: 1010185658
+Email: karenriosdussan@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 094
+------------------------------
+Nombre: María José Álvarez
+Cédula: 1007906094
+Email: mariaalvarezarb@gmail.com
+Fecha cumpleaños: 27 de julio
+
+CLIENTE 095
+------------------------------
+Nombre: Alicia Isabel Olivero Tejada
+Cédula: 1003078341
+Email: maliolivero@gmail.com
+Fecha cumpleaños: 25 de mayo
+
+CLIENTE 096
+------------------------------
+Nombre: Eliana henao buitrago
+Cédula: 1128428999
+Email: Elihenaoj327@gmail.com
+Fecha cumpleaños: 3 de julio
+
+CLIENTE 097
+------------------------------
+Nombre: María Alejandra Castrillón
+Cédula: 1039458519
+Email: castrillonmale1111@gmail.com
+Fecha cumpleaños: 21 de noviembre
+
+CLIENTE 098
+------------------------------
+Nombre: Susana Agudelo
+Cédula: 1000416983
+Email: susana-577@hotmail.com
+Fecha cumpleaños: 06 de septiembre
+
+CLIENTE 099
+------------------------------
+Nombre: Jennyfer Echavarría Pérez
+Cédula: 1020444361
+Email: jenv.4005@gmail.com
+Fecha cumpleaños: 28/06
+
+CLIENTE 100
+------------------------------
+Nombre: Mónica Rueda
+Cédula: 43345712
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 101
+------------------------------
+Nombre: Paulina Brand Lezcano
+Cédula: 1017213490
+Email: paulinabrandlezcano@gmail.com
+Fecha cumpleaños: 13 de octubre
+
+CLIENTE 102
+------------------------------
+Nombre: Karina Gelvez
+Cédula: 1098676207
+Email: kariancontabilidad@hotmail.com
+Fecha cumpleaños: 09 de septiembre
+
+CLIENTE 103
+------------------------------
+Nombre: Maria Fernanda Ospina Restrepo
+Cédula: 1152225203
+Email: mafe062227@gmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 104
+------------------------------
+Nombre: Mariana Sánchez Martínez
+Cédula: 1036404690
+Email: marianasan0806@gmail.com
+Fecha cumpleaños: 06 de agosto
+
+CLIENTE 105
+------------------------------
+Nombre: Diana Capera
+Cédula: 36302117
+Email: caperadiana@gmail.com
+Fecha cumpleaños: 03 de septiembre
+
+CLIENTE 106
+------------------------------
+Nombre: Ximena García
+Cédula: 1000085405
+Email: ximenagar28@gmail.com
+Fecha cumpleaños: 18 de enero
+
+CLIENTE 107
+------------------------------
+Nombre: Andrea Zapata
+Cédula: 43189236
+Email: janethandreaz@gmail.com
+Fecha cumpleaños: 26 de enero
+
+CLIENTE 108
+------------------------------
+Nombre: Yuliana Andrea Sierra Quiroz
+Cédula: 1193079891
+Email: yulianaandreasierra849@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 109
+------------------------------
+Nombre: Nora Luna
+Cédula: 43736959
+Email: santizora@hotmail.com
+Fecha cumpleaños: 12 de agosto
+
+CLIENTE 110
+------------------------------
+Nombre: Evelyn Helena Palacio Barrios
+Cédula: 1038092935
+Email: evypalacio8605@gmail.com
+Fecha cumpleaños: 02 de febrero
+
+CLIENTE 111
+------------------------------
+Nombre: Érika Medina Cardona
+Cédula: 43259991
+Email: erikamedina25c@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 112
+------------------------------
+Nombre: María Fernanda Guerrero Meneses
+Cédula: 1006170181
+Email: fernanda-mgm@hotmail.com
+Fecha cumpleaños: 10 de febrero
+
+CLIENTE 113
+------------------------------
+Nombre: Yoes Dayhana Pérez Restrepo
+Cédula: 1010110145
+Email: ydayhana2312@hotmail.com
+Fecha cumpleaños: 20 de octubre
+
+CLIENTE 114
+------------------------------
+Nombre: Carolina Ramírez Carvajal
+Cédula: 1152456308
+Email: carocarvajal6@gmail.com
+Fecha cumpleaños: 19 de noviembre
+
+CLIENTE 115
+------------------------------
+Nombre: Sandra Milena Posada Jiménez
+Cédula: 43757868
+Email: valerymona24@gmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 116
+------------------------------
+Nombre: Valeria Londoño Ramírez
+Cédula: 1001478459
+Email: valramirez5555@gmail.com
+Fecha cumpleaños: 05 de enero
+
+CLIENTE 117
+------------------------------
+Nombre: Diana María Parra
+Cédula: 43535544
+Email: diana.parra1969@gmail.com
+Fecha cumpleaños: 04 de junio
+
+CLIENTE 118
+------------------------------
+Nombre: Estefanía Villamizar
+Cédula: 1017260616
+Email: villamizarestefania19@gmail.com
+Fecha cumpleaños: 19 de junio
+
+CLIENTE 119
+------------------------------
+Nombre: Nicoll Suárez
+Cédula: 1193265505
+Email: nicoll281201@gmail.com
+Fecha cumpleaños: 28 de diciembre
+
+CLIENTE 120
+------------------------------
+Nombre: Sara López Mesa
+Cédula: 1037661643
+Email: sarislm2@gmail.com
+Fecha cumpleaños: 18 de marzo
+
+CLIENTE 121
+------------------------------
+Nombre: Melissa Tobón Montoya
+Cédula: 1036686251
+Email: melissatbm0299@gmail.com
+Fecha cumpleaños: 02 de julio
+
+CLIENTE 122
+------------------------------
+Nombre: Yeraldin Andrea Chica
+Cédula: 1037647460
+Email: yeraldinandreachica@hotmail.com
+Fecha cumpleaños: 12 de noviembre
+
+CLIENTE 123
+------------------------------
+Nombre: Lady Puerta
+Cédula: 1107516727
+Email: ladyjohanapuerta@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 124
+------------------------------
+Nombre: Verónica Mesa
+Cédula: 1000295978
+Email: vms068@gmail.com
+Fecha cumpleaños: 16 de junio
+
+CLIENTE 125
+------------------------------
+Nombre: Valentina Gómez
+Cédula: 1002754966
+Email: valentina.gomez1918@gmail.com
+Fecha cumpleaños: 08 de febrero
+
+CLIENTE 126
+------------------------------
+Nombre: Daniela Lizcano
+Cédula: 1143848465
+Email: danilizsan93@gmail.com
+Fecha cumpleaños: 05 de junio
+
+CLIENTE 127
+------------------------------
+Nombre: Mariana Gómez
+Cédula: 1027890145
+Email: marianagomezce@gmail.com
+Fecha cumpleaños: 10 de marzo
+
+CLIENTE 128
+------------------------------
+Nombre: Marcela Otálora Torres
+Cédula: 1015478238
+Email: marcelaotalora20@gmail.com
+Fecha cumpleaños: 30 de noviembre
+
+CLIENTE 129
+------------------------------
+Nombre: Karolayn Rojas Jaramillo
+Cédula: 1020496156
+Email: karolaynrojas.647@gmail.com
+Fecha cumpleaños: 07 de noviembre
+
+CLIENTE 130
+------------------------------
+Nombre: Leidy Álzate Serna
+Cédula: 1046906083
+Email: sernaaleja89@icloud.com
+Fecha cumpleaños: 08 de agosto
+
+CLIENTE 131
+------------------------------
+Nombre: Wendy Benítez
+Cédula: 1036449129
+Email: wendy.benig54@gmail.com
+Fecha cumpleaños: 11 de mayo
+
+CLIENTE 132
+------------------------------
+Nombre: Maria Alejandra Muñoz
+Cédula: 1040752415
+Email: moniyar2@yahoo.com
+Fecha cumpleaños: 10 de abril
+
+CLIENTE 133
+------------------------------
+Nombre: Luisa Fernanda Aristizábal Zuluaga
+Cédula: 1007271831
+Email: luisa.aristi@hotmail.com
+Fecha cumpleaños: 18/11
+
+CLIENTE 134
+------------------------------
+Nombre: Luna Guerra
+Cédula: 1036449322
+Email: lunamariaguerraduque@gmail.com
+Fecha cumpleaños: 20 agosto
+
+CLIENTE 135
+------------------------------
+Nombre: Daniela Pico
+Cédula: 1192910176
+Email: picoarredondo@gmail.com
+Fecha cumpleaños: 14/01
+
+CLIENTE 136
+------------------------------
+Nombre: Pamela Bernal Goez
+Cédula: 1017923793
+Email: goezpamela3@gmail.com
+Fecha cumpleaños: 23 de marzo
+
+CLIENTE 137
+------------------------------
+Nombre: Ana Gabriela Sánchez Cubillos
+Cédula: 1023083157
+Email: ana.cubillos175@gmail.com
+Fecha cumpleaños: 01 de julio
+
+CLIENTE 138
+------------------------------
+Nombre: Diana González
+Cédula: 41942192
+Email: gisellacardenas2005@gmail.com
+Fecha cumpleaños: 18 de diciembre
+
+CLIENTE 139
+------------------------------
+Nombre: Wendy Vanessa Orozco
+Cédula: 1042251026
+Email: orozcowendyva@gmail.com
+Fecha cumpleaños: 08 de diciembre
+
+CLIENTE 140
+------------------------------
+Nombre: Manuela Oyuela
+Cédula: 1037657112
+Email: manuelaoyuela30@gmail.com
+Fecha cumpleaños: 30 de junio
+
+CLIENTE 141
+------------------------------
+Nombre: Alejandra Palacio Velásquez
+Cédula: 1001539990
+Email: alejapave1508@gmail.com
+Fecha cumpleaños: 14 de marzo
+
+CLIENTE 142
+------------------------------
+Nombre: Nelly Espitia
+Cédula: 1040370738
+Email: ninaespitiac@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 143
+------------------------------
+Nombre: Manuela Correa
+Cédula: 1037658613
+Email: manu_correa12@hotmail.com
+Fecha cumpleaños: 09 de septiembre
+
+CLIENTE 144
+------------------------------
+Nombre: Carolina Cortés
+Cédula: 1001362388
+Email: carolinacorteszapata@gmail.com
+Fecha cumpleaños: 07 de abril
+
+CLIENTE 145
+------------------------------
+Nombre: Silvia Hernández
+Cédula: 1098796928
+Email: silviahernandezo@hotmail.com
+Fecha cumpleaños: 12 de marzo
+
+CLIENTE 146
+------------------------------
+Nombre: Yennifer Quintero
+Cédula: 1095952172
+Email: jenifer-158@hotmail.com
+Fecha cumpleaños: 8 de mayo
+
+CLIENTE 147
+------------------------------
+Nombre: Emmy Gómez Quintero
+Cédula: 1193120763
+Email: talita.goqui@gmail.com
+Fecha cumpleaños: 22 de septiembre
+
+CLIENTE 148
+------------------------------
+Nombre: Laura Restrepo
+Cédula: 1001016118
+Email: laurarestrepom24@gmail.com
+Fecha cumpleaños: 15 de junio
+
+CLIENTE 149
+------------------------------
+Nombre: Helen Hurtado
+Cédula: 1021671167
+Email: helenandrea0408@gmail.com
+Fecha cumpleaños: 12 de mayo
+
+CLIENTE 150
+------------------------------
+Nombre: Manuela Marín
+Cédula: 1001015573
+Email: manuelaquinta3258@gmail.com
+Fecha cumpleaños: 17 de julio
+
+CLIENTE 151
+------------------------------
+Nombre: Carolina Mazo Calderón
+Cédula: 1040748602
+Email: carito.calderon18@gmail.com
+Fecha cumpleaños: 4 de noviembre
+
+CLIENTE 152
+------------------------------
+Nombre: Vivian Nova
+Cédula: 1022443247
+Email: jimena6599@gmail.com
+Fecha cumpleaños: 05 de mayo
+
+CLIENTE 153
+------------------------------
+Nombre: Yulianna Martínez
+Cédula: 1003517152
+Email: yuliannamartinezbarreto@gmail.com
+Fecha cumpleaños: 09 de julio
+
+CLIENTE 154
+------------------------------
+Nombre: Estefanía Patiño Salazar
+Cédula: 1037238309
+Email: estefaniapatinosalazar@gmail.com
+Fecha cumpleaños: 08 de enero
+
+CLIENTE 155
+------------------------------
+Nombre: Silvia nathalia patiño cespes
+Cédula: 1098798445
+Email: silvianataly1997@hotmail.com
+Fecha cumpleaños: 21 de junio 1997
+
+CLIENTE 156
+------------------------------
+Nombre: María Camila jimenez garcia
+Cédula: 1001234166
+Email: Mariacamilajimenezgarcia20@gmail.com
+Fecha cumpleaños: 28/12/2000
+
+CLIENTE 157
+------------------------------
+Nombre: Tania Marcela Mateus Maldonado
+Cédula: 1070924720
+Email: marcemateus08@gmail.com
+Fecha cumpleaños: 08 de noviembre
+
+CLIENTE 158
+------------------------------
+Nombre: Margy Dayanna Pérez Zabala
+Cédula: 1019129940
+Email: dayis951@hotmail.com
+Fecha cumpleaños: 09 de mayo
+
+CLIENTE 159
+------------------------------
+Nombre: Santiago López Gallo
+Cédula: 1054997383
+Email: lopezg.santiago1996@gmail.com
+Fecha cumpleaños: 07 de octubre
+
+CLIENTE 160
+------------------------------
+Nombre: Andrea Caicedo Gaviria
+Cédula: 1020824352
+Email: 
+Fecha cumpleaños: 25 de marzo
+
+CLIENTE 161
+------------------------------
+Nombre: Gabriela Cuartas Sánchez
+Cédula: 1001420434
+Email: gabrielacuartas14@gmail.com
+Fecha cumpleaños: 14 de mayo
+
+CLIENTE 162
+------------------------------
+Nombre: Sulin Andrea Cardona David
+Cédula: 43119378
+Email: andrea.cardona@hotmail.com
+Fecha cumpleaños: 22 de marzo
+
+CLIENTE 163
+------------------------------
+Nombre: Valentina Arias Toro
+Cédula: 1000556675
+Email: ariasvale2302@gmail.com
+Fecha cumpleaños: 23 de febrero
+
+CLIENTE 164
+------------------------------
+Nombre: Pablo Andrés Gómez Álvarez
+Cédula: 1042763527
+Email: linecosmeticlaceja@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 165
+------------------------------
+Nombre: Jeydy Michelle Atehortúa Bolívar
+Cédula: 1000290973
+Email: jeidybolivar792@gmail.com
+Fecha cumpleaños: 11 de octubre
+
+CLIENTE 166
+------------------------------
+Nombre: Sergio Chavarro Rodríguez
+Cédula: 80726149
+Email: 
+Fecha cumpleaños: 08 de septiembre
+
+CLIENTE 167
+------------------------------
+Nombre: Mariana Loaiza Uribe
+Cédula: 1039078845
+Email: marianaloaizamakeup@gmail.com
+Fecha cumpleaños: 8 de mayo
+
+CLIENTE 168
+------------------------------
+Nombre: Natalia Giraldo
+Cédula: 1002084403
+Email: nataliagiraldo0705@gmail.com
+Fecha cumpleaños: 14 de enero
+
+CLIENTE 169
+------------------------------
+Nombre: Juliana Gómez
+Cédula: 43924596
+Email: juliana.gomez1363@gmail.com
+Fecha cumpleaños: 13 de diciembre
+
+CLIENTE 170
+------------------------------
+Nombre: Yenifer Aristizábal
+Cédula: 1045026620
+Email: jeniferaristizabalguarin@gmail.com
+Fecha cumpleaños: 14 de agosto
+
+CLIENTE 171
+------------------------------
+Nombre: Sara Rodríguez
+Cédula: 1007001027
+Email: sararodrigv@gmail.com
+Fecha cumpleaños: 15 de septiembre
+
+CLIENTE 172
+------------------------------
+Nombre: Claudia Alejandra Anaya García
+Cédula: 1019046538
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 173
+------------------------------
+Nombre: Érika García
+Cédula: 1037662421
+Email: 
+Fecha cumpleaños: 03 de mayo
+
+CLIENTE 174
+------------------------------
+Nombre: Sandy julieth Rodriguez Rodriguez
+Cédula: 1003064270
+Email: rodriguezsandy0614@gmail.com
+Fecha cumpleaños: 14-06
+
+CLIENTE 175
+------------------------------
+Nombre: Sara Paulina Arboleda Quintero
+Cédula: 1001497034
+Email: sarapau981@gmail.com
+Fecha cumpleaños: 9 de agosto
+
+CLIENTE 176
+------------------------------
+Nombre: Sara Ospina
+Cédula: 1006371059
+Email: salauma2003@gmail.com
+Fecha cumpleaños: 10 de mayo
+
+CLIENTE 177
+------------------------------
+Nombre: Daniela Yepes Escobar
+Cédula: 1036675236
+Email: danielayes1897@gmail.com
+Fecha cumpleaños: 18 de septiembre
+
+CLIENTE 178
+------------------------------
+Nombre: Mariana Gómez
+Cédula: 1027890145
+Email: marianagomezce@gmail.com
+Fecha cumpleaños: 10 de marzo
+
+CLIENTE 179
+------------------------------
+Nombre: Laura Angélica Torres Vargas
+Cédula: 1113678399
+Email: laura_torresv25@hotmail.com
+Fecha cumpleaños: 30 de enero
+
+CLIENTE 180
+------------------------------
+Nombre: Stephany Zúñiga Vargas
+Cédula: 1144031584
+Email: stephyzunigav@gmail.com
+Fecha cumpleaños: 20 de enero
+
+CLIENTE 181
+------------------------------
+Nombre: Santiago Londoño González
+Cédula: 1017251837
+Email: santi2530658@gmail.com
+Fecha cumpleaños: 10 de octubre
+
+CLIENTE 182
+------------------------------
+Nombre: Nicol Dahan Rodríguez Cárdenas
+Cédula: 1023302030
+Email: nicolr937@gmail.com
+Fecha cumpleaños: 04 de diciembre
+
+CLIENTE 183
+------------------------------
+Nombre: Stephanie Cortés Velásquez
+Cédula: 1037642301
+Email: stephaniecvbb@gmail.com
+Fecha cumpleaños: 16 de mayo
+
+CLIENTE 184
+------------------------------
+Nombre: Mariana Arredondo
+Cédula: 1000662200
+Email: marianaaj420@hotmail.com
+Fecha cumpleaños: 20 de abril
+
+CLIENTE 185
+------------------------------
+Nombre: Manuela Oyuela
+Cédula: 1037657112
+Email: manuelaoyuela30@gmail.com
+Fecha cumpleaños: 30 de junio
+
+CLIENTE 186
+------------------------------
+Nombre: Manuela Sosa
+Cédula: 1128442943
+Email: manubetancur_92@hotmail.com
+Fecha cumpleaños: 20 de febrero
+
+CLIENTE 187
+------------------------------
+Nombre: Óscar Silva Bertel
+Cédula: 1102835665
+Email: oskr_silber@hotmail.com
+Fecha cumpleaños: 19 de octubre
+
+CLIENTE 188
+------------------------------
+Nombre: Diana Carolina Carvajal Vargas
+Cédula: 1001182851
+Email: indicartop0708@gmail.com
+Fecha cumpleaños: 07 de agosto
+
+CLIENTE 189
+------------------------------
+Nombre: Ana Yisel Rozo Cruz
+Cédula: 1002461934
+Email: anayisel33@gmail.com
+Fecha cumpleaños: 07 de abril
+
+CLIENTE 190
+------------------------------
+Nombre: María Alejandra Jiménez Sierra
+Cédula: 1000589731
+Email: dlmunevard12@gmail.com
+Fecha cumpleaños: 13 junio
+
+CLIENTE 191
+------------------------------
+Nombre: María Lucía Quiñónez Bermúdez
+Cédula: 1122521699
+Email: quinonezbermudezmarialucia@gmail.com
+Fecha cumpleaños: 02 de mayo
+
+CLIENTE 192
+------------------------------
+Nombre: Laura Rocío Jiménez Rincón
+Cédula: 1096216311
+Email: jime_2229@hotmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 193
+------------------------------
+Nombre: Jéssica Jiménez
+Cédula: 1020782079
+Email: jessica.jimenez9313@gmail.com
+Fecha cumpleaños: 13 de abril
+
+CLIENTE 194
+------------------------------
+Nombre: Sara Valencia Montoya
+Cédula: 
+Email: liriobysaravamo@gmail.com
+Fecha cumpleaños: 27 de agosto
+
+CLIENTE 195
+------------------------------
+Nombre: Camila Mahecha Donato
+Cédula: 1016108656
+Email: yuliethmahechadonato@gmail.com
+Fecha cumpleaños: 4 de marzo
+
+CLIENTE 196
+------------------------------
+Nombre: Luza Quiceno
+Cédula: 1053803132
+Email: luza.quiceno.hoyos@gmail.com
+Fecha cumpleaños: 31 de mayo
+
+CLIENTE 197
+------------------------------
+Nombre: Valentina Mejía
+Cédula: 1096066605
+Email: lissethcasas98@gmail.com
+Fecha cumpleaños: 23 de junio
+
+CLIENTE 198
+------------------------------
+Nombre: Laura Lorena Caro Calle
+Cédula: 1016010645
+Email: 1lorenacalle1@gmail.com
+Fecha cumpleaños: 02 junio
+
+CLIENTE 199
+------------------------------
+Nombre: Kylie Motta Torres
+Cédula: 1117490314
+Email: kyliemottato@gmail.com
+Fecha cumpleaños: 06/11
+
+CLIENTE 200
+------------------------------
+Nombre: Santiago Villa Eraso
+Cédula: 1000745885
+Email: santy.lacom@hotmail.com
+Fecha cumpleaños: 26 de julio
+
+CLIENTE 201
+------------------------------
+Nombre: Rosiris Menco
+Cédula: 45557166
+Email: roxi2929@hotmail.com
+Fecha cumpleaños: 02 de noviembre
+
+CLIENTE 202
+------------------------------
+Nombre: Sandra Pulido
+Cédula: 52857083
+Email: sanjpv@hotmail.com
+Fecha cumpleaños: 09 de noviembre
+
+CLIENTE 203
+------------------------------
+Nombre: Diana Ramírez
+Cédula: 1017221929
+Email: dianaramirez.s@hotmail.com
+Fecha cumpleaños: 04 de septiembre
+
+CLIENTE 204
+------------------------------
+Nombre: Angie Lorena Rojas Salamanca
+Cédula: 1014292836
+Email: lorers1011@gmail.com
+Fecha cumpleaños: 11 octubre
+
+CLIENTE 205
+------------------------------
+Nombre: Alejandra Mejía Restrepo
+Cédula: 1225090413
+Email: alejandramejiarestrepo@hotmail.com
+Fecha cumpleaños: 09 de marzo
+
+CLIENTE 206
+------------------------------
+Nombre: Valentina Torres Ramírez
+Cédula: 1004752423
+Email: valentinatorresramirez60@gmail.com
+Fecha cumpleaños: 26 de enero
+
+CLIENTE 207
+------------------------------
+Nombre: Daniela Ramírez
+Cédula: 1018467096
+Email: drcardona703@gmail.com
+Fecha cumpleaños: 05 de mayo
+
+CLIENTE 208
+------------------------------
+Nombre: Sofía Zapata Arias
+Cédula: 1032010206
+Email: sofiazapat@hotmail.com
+Fecha cumpleaños: 09 de enero
+
+CLIENTE 209
+------------------------------
+Nombre: Valeria Palomino
+Cédula: 1053871095
+Email: valeriapalomino912@gmail.com
+Fecha cumpleaños: 4 de julio
+
+CLIENTE 210
+------------------------------
+Nombre: Laura Duque
+Cédula: 1128417803
+Email: lauraduquez14@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 211
+------------------------------
+Nombre: Mariana Munera
+Cédula: 1000101110
+Email: marimunera01@gmail.com
+Fecha cumpleaños: 01 de mayo
+
+CLIENTE 212
+------------------------------
+Nombre: Camila Bolívar
+Cédula: 1035440132
+Email: bolivarcamila7@gmail.com
+Fecha cumpleaños: 10 de julio
+
+CLIENTE 213
+------------------------------
+Nombre: Valentina Escobar
+Cédula: 1018514873
+Email: 
+Fecha cumpleaños: 16 de diciembre
+
+CLIENTE 214
+------------------------------
+Nombre: Juliana Rodríguez
+Cédula: 1074415100
+Email: julisahory27@gmail.com
+Fecha cumpleaños: 3 de enero
+
+CLIENTE 215
+------------------------------
+Nombre: Marcela López
+Cédula: 1088320918
+Email: marce.lopez94@outlook.com
+Fecha cumpleaños: 29 de agosto
+
+CLIENTE 216
+------------------------------
+Nombre: Valentina Prada
+Cédula: 1036689407
+Email: valentinaprada023@gmail.com
+Fecha cumpleaños: 30 de noviembre
+
+CLIENTE 217
+------------------------------
+Nombre: Julieth Serna
+Cédula: 1018513848
+Email: juliethsernagomez.16@gmail.com
+Fecha cumpleaños: 16 de
+
+CLIENTE 218
+------------------------------
+Nombre: Manuela Guevara
+Cédula: 1036673650
+Email: Manu-f8111@hotmail.com
+Fecha cumpleaños: 15 Junio
+
+CLIENTE 219
+------------------------------
+Nombre: Andrea Rodríguez
+Cédula: 1017196790
+Email: andru-10-13@hotmail.com
+Fecha cumpleaños: 26 de octubre
+
+CLIENTE 220
+------------------------------
+Nombre: Laura Cardona Arcila
+Cédula: 1152450283
+Email: laocardoo@hotmail.com
+Fecha cumpleaños: 17 de marzo
+
+CLIENTE 221
+------------------------------
+Nombre: María Fernanda Sierra Gallego
+Cédula: 1152711279
+Email: dutiendacol@gmail.com
+Fecha cumpleaños: 02 de julio
+
+CLIENTE 222
+------------------------------
+Nombre: Edi Alberto Duque Mazo
+Cédula: 71218768
+Email: monogotolasluces@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 223
+------------------------------
+Nombre: Karol Ramírez
+Cédula: 1005796622
+Email: 
+Fecha cumpleaños: 19/04
+
+CLIENTE 224
+------------------------------
+Nombre: Dahiana Henao
+Cédula: 1036645752
+Email: estefany-1036@hotmail.com
+Fecha cumpleaños: 04 de noviembre
+
+CLIENTE 225
+------------------------------
+Nombre: Katherine Castro Arteaga
+Cédula: 1128434634
+Email: ktesalome@gmail.com
+Fecha cumpleaños: 14 de junio
+
+CLIENTE 226
+------------------------------
+Nombre: Maria Paulina Pérez
+Cédula: 1001227172
+Email: mp.perezagudelo@gmail.com
+Fecha cumpleaños: 15 de Junio
+
+CLIENTE 227
+------------------------------
+Nombre: María Camila Ortiz
+Cédula: 1000098412
+Email: pimiso2000@gmail.com
+Fecha cumpleaños: 19 de abril
+
+CLIENTE 228
+------------------------------
+Nombre: Amparo Benavides
+Cédula: 41887101
+Email: ambeva61@hotmail.com
+Fecha cumpleaños: 04 de agosto
+
+CLIENTE 229
+------------------------------
+Nombre: Sara Álzate
+Cédula: 1152447973
+Email: saraalzatef5@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 230
+------------------------------
+Nombre: Maria Camila Cardona Mejía
+Cédula: 1037656485
+Email: mariacamilacardona97@gmail.com
+Fecha cumpleaños: 25 de marzo
+
+CLIENTE 231
+------------------------------
+Nombre: Karol Caballero
+Cédula: 1152217408
+Email: seka1522@hotmail.com
+Fecha cumpleaños: 15 de mayo
+
+CLIENTE 232
+------------------------------
+Nombre: Yeral Bocanegra García
+Cédula: 1152472192
+Email: yeralbocanegra@gmail.com
+Fecha cumpleaños: 30 de noviembre
+
+CLIENTE 233
+------------------------------
+Nombre: Nicol Dahan Rodríguez Cárdenas
+Cédula: 1023302030
+Email: nicolr937@gmail.com
+Fecha cumpleaños: 04 de diciembre
+
+CLIENTE 234
+------------------------------
+Nombre: Valeria Giraldo
+Cédula: 1144076258
+Email: valeriagiraldo100@gmail.com
+Fecha cumpleaños: 29 de noviembre
+
+CLIENTE 235
+------------------------------
+Nombre: Manuela Diaz
+Cédula: 1000086105
+Email: manuelita1423@gmail.com
+Fecha cumpleaños: 23/04
+
+CLIENTE 236
+------------------------------
+Nombre: Jennifer Rivera Herrera
+Cédula: 43928138
+Email: jenniferiveraherrera@gmail.com
+Fecha cumpleaños: 12 de diciembre
+
+CLIENTE 237
+------------------------------
+Nombre: Adriana Yolima Acosta
+Cédula: 1083910095
+Email: 
+Fecha cumpleaños: 09 de octubre
+
+CLIENTE 238
+------------------------------
+Nombre: Claudia Alejandra Anaya García
+Cédula: 1019046538
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 239
+------------------------------
+Nombre: María rios
+Cédula: 1010242628
+Email: karvalt1640@gmail.com
+Fecha cumpleaños: 5 nov
+
+CLIENTE 240
+------------------------------
+Nombre: Valentina Betancur
+Cédula: 1022145524
+Email: betancurvalen2006@gmail.com
+Fecha cumpleaños: 02 de mayo
+
+CLIENTE 241
+------------------------------
+Nombre: Evelyn Cardona
+Cédula: 1037636076
+Email: eve2814_@hotmail.com
+Fecha cumpleaños: 28 de junio
+
+CLIENTE 242
+------------------------------
+Nombre: Mariana Sotelo Arroyave
+Cédula: 1152211960
+Email: marianasoteloa@gmail.com
+Fecha cumpleaños: 04 de febrero
+
+CLIENTE 243
+------------------------------
+Nombre: Patricia Ospina
+Cédula: 39169965
+Email: glo.ospina@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 244
+------------------------------
+Nombre: Laura Giraldo
+Cédula: 1007619076
+Email: lauravalentinagiraldogomez25@gmail.com
+Fecha cumpleaños: 02 de agosto
+
+CLIENTE 245
+------------------------------
+Nombre: Nelly Espitia
+Cédula: 1040370738
+Email: ninaespitiac@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 246
+------------------------------
+Nombre: Ana Yisel Rozo Cruz
+Cédula: 46451641
+Email: anayisel33@gmail.com
+Fecha cumpleaños: 07 de abril
+
+CLIENTE 247
+------------------------------
+Nombre: Mariam Ruiz
+Cédula: 1010117730
+Email: mrmjsmr@hotmail.com
+Fecha cumpleaños: 16 de enero
+
+CLIENTE 248
+------------------------------
+Nombre: Natalia Andrea Pita Bravo
+Cédula: 1005605874
+Email: marpivas38@hotmail.com
+Fecha cumpleaños: 29 de junio
+
+CLIENTE 249
+------------------------------
+Nombre: Laura Quintero
+Cédula: 1002971367
+Email: laura.quintero.334@gmail.com
+Fecha cumpleaños: 23 de mayo
+
+CLIENTE 250
+------------------------------
+Nombre: Karol Ríos
+Cédula: 1006839550
+Email: karolrios0122@gmail.com
+Fecha cumpleaños: 17 de septiembre
+
+CLIENTE 251
+------------------------------
+Nombre: Liliana Gómez
+Cédula: 1007703683
+Email: marthaliliana2502@gmail.com
+Fecha cumpleaños: 25 de febrero
+
+CLIENTE 252
+------------------------------
+Nombre: Deyanira Gómez Hoyos
+Cédula: 25285795
+Email: deya0210@hotmail.com
+Fecha cumpleaños: 18 de diciembre
+
+CLIENTE 253
+------------------------------
+Nombre: Daniela Gallego
+Cédula: 1038416772
+Email: daniela_3896@hotmail.com
+Fecha cumpleaños: 08 de mayo
+
+CLIENTE 254
+------------------------------
+Nombre: Rubby Rojas
+Cédula: 1090466866
+Email: rubbyrojas29@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 255
+------------------------------
+Nombre: Yulixa Rodríguez Chimbaco
+Cédula: 1004156844
+Email: cresposyuli@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 256
+------------------------------
+Nombre: Carolina Benavides
+Cédula: 52355602
+Email: mcbenavides@sura.com.co
+Fecha cumpleaños: 26 de mayo
+
+CLIENTE 257
+------------------------------
+Nombre: Maria Daniela Triana Tamayo
+Cédula: 1020844485
+Email: maria.daniela.triana.tamayo@gmail.com
+Fecha cumpleaños: 04 de noviembre
+
+CLIENTE 258
+------------------------------
+Nombre: Gissella Paola Niebles Saenz
+Cédula: 04203009
+Email: giselasaenzn@gmail.com
+Fecha cumpleaños: 06 de octubre
+
+CLIENTE 259
+------------------------------
+Nombre: Yina Paola López Moreno
+Cédula: 1012424171
+Email: yplopezm@gmail.com
+Fecha cumpleaños: 07 de agosto
+
+CLIENTE 260
+------------------------------
+Nombre: Manuela Valderrama Cardona
+Cédula: 1039884558
+Email: manuelavalderramacardona78@gmail.com
+Fecha cumpleaños: 16 de septiembre
+
+CLIENTE 261
+------------------------------
+Nombre: Giovanny Zapata
+Cédula: 1151952421
+Email: giovannyzapata-20@hotmail.com
+Fecha cumpleaños: 10 de febrero
+
+CLIENTE 262
+------------------------------
+Nombre: Evelyn Johanna David
+Cédula: 1000873857
+Email: daviddurangoevelyn@gmail.com
+Fecha cumpleaños: 08 de septiembre
+
+CLIENTE 263
+------------------------------
+Nombre: Kiara Rodriguez
+Cédula: 1001417805
+Email: kiararodriguez2212@gmail.com
+Fecha cumpleaños: 17 septiembre
+
+CLIENTE 264
+------------------------------
+Nombre: Laura Cristina González Guerra
+Cédula: 53970961
+Email: otrosdiversos2022@gmail.com
+Fecha cumpleaños: 30 de octubre
+
+CLIENTE 265
+------------------------------
+Nombre: Sofía Suárez
+Cédula: 1088826251
+Email: suarezzsofia08@gmail.com
+Fecha cumpleaños: 6 de Junio
+
+CLIENTE 266
+------------------------------
+Nombre: Lina Maria BARRERA MOSQUERA
+Cédula: 1193143664
+Email: linabarrera78@gmail.com
+Fecha cumpleaños: 14/05
+
+CLIENTE 267
+------------------------------
+Nombre: Daniela Rojas
+Cédula: 1037617561
+Email: dani.rz@hotmail.com
+Fecha cumpleaños: 15 de enero
+
+CLIENTE 268
+------------------------------
+Nombre: Sheilyn Gómez
+Cédula: 1001946654
+Email: sheilyngomez28@gmail.com
+Fecha cumpleaños: 28 de marzo
+
+CLIENTE 269
+------------------------------
+Nombre: Laura Soto
+Cédula: 1001004640
+Email: laurasotoc4@hotmail.com
+Fecha cumpleaños: 04/10
+
+CLIENTE 270
+------------------------------
+Nombre: Ana Londoño
+Cédula: 1017196040
+Email: nanamaria.0922@gmail.com
+Fecha cumpleaños: 22 de septiembre
+
+CLIENTE 271
+------------------------------
+Nombre: Érika Serna Duque
+Cédula: 1039455169
+Email: erika33serna@gmail.com
+Fecha cumpleaños: 01 de marzo
+
+CLIENTE 272
+------------------------------
+Nombre: Marly Holguín Lopez
+Cédula: 1039625170
+Email: marlyholguinl@gmail.com
+Fecha cumpleaños: 12 de octubre
+
+CLIENTE 273
+------------------------------
+Nombre: Leidy Tatiana Cárdenas Fonseca
+Cédula: 1109006460
+Email: ctati98@gmail.com
+Fecha cumpleaños: 06/10
+
+CLIENTE 274
+------------------------------
+Nombre: Verónica Gómez
+Cédula: 1041205189
+Email: veronica.gomez3@udea.edu.co
+Fecha cumpleaños: 12 de julio
+
+CLIENTE 275
+------------------------------
+Nombre: Carolina Daza
+Cédula: 1022438102
+Email: xcdaza@gmail.com
+Fecha cumpleaños: 18 septiembre
+
+CLIENTE 276
+------------------------------
+Nombre: Diana Marcela Giraldo Ceballos
+Cédula: 43253539
+Email: marcelagiraldo3212@gmail.com
+Fecha cumpleaños: 14 de mayo
+
+CLIENTE 277
+------------------------------
+Nombre: Daniela Rico Lombana
+Cédula: 1026586889
+Email: danielarico240@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 278
+------------------------------
+Nombre: Yennifer Mejía
+Cédula: 1037600286
+Email: mejiayenni081@gmail.com
+Fecha cumpleaños: 24 de septiembre
+
+CLIENTE 279
+------------------------------
+Nombre: Claudia Cardenas
+Cédula: 38595437
+Email: kallys10083@gmail.com
+Fecha cumpleaños: 1 agosto
+
+CLIENTE 280
+------------------------------
+Nombre: Jaqueline Torres Jiménez
+Cédula: 31981834
+Email: jaquelinetorres@hotmail.com
+Fecha cumpleaños: 03 de septiembre
+
+CLIENTE 281
+------------------------------
+Nombre: Nelly Espitia
+Cédula: 1040370738
+Email: ninaespitiac@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 282
+------------------------------
+Nombre: Érika Serna Duque
+Cédula: 1039455169
+Email: erika33serna@gmail.com
+Fecha cumpleaños: 01 de marzo
+
+CLIENTE 283
+------------------------------
+Nombre: Leidy Milena Castaño Hernández
+Cédula: 1017228754
+Email: milenestef@hotmail.com
+Fecha cumpleaños: 05 de marzo
+
+CLIENTE 284
+------------------------------
+Nombre: Karen Pulgarín Ossa
+Cédula: 1128274078
+Email: siomara8803@hotmail.com
+Fecha cumpleaños: 16 de marzo
+
+CLIENTE 285
+------------------------------
+Nombre: Dayana Vélez
+Cédula: 1001359404-9
+Email: dayanavelez06@gmail.com
+Fecha cumpleaños: 19 de febrero
+
+CLIENTE 286
+------------------------------
+Nombre: Viviana Giraldo Castaño
+Cédula: 1037237199
+Email: vivigc1106@hotmail.com
+Fecha cumpleaños: 06 de noviembre
+
+CLIENTE 287
+------------------------------
+Nombre: Danny Steffany Amaya Solano
+Cédula: 
+Email: primortiendamultimarca@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 288
+------------------------------
+Nombre: Estefanía Gómez
+Cédula: 1035914797
+Email: estefania_gomezo@hotmail.com
+Fecha cumpleaños: 20 de enero
+
+CLIENTE 289
+------------------------------
+Nombre: Laura Sánchez Ochoa
+Cédula: 1214740747
+Email: ladysanchez1004@gmail.com
+Fecha cumpleaños: 04 de octubre
+
+CLIENTE 290
+------------------------------
+Nombre: Isabela Hernández Cañas
+Cédula: 1035414072
+Email: isabelahernandezcanas@gmail.com
+Fecha cumpleaños: 23 de febrero
+
+CLIENTE 291
+------------------------------
+Nombre: Nathaly Martínez Osorio
+Cédula: 1001015201
+Email: nathalymartinez175@gmail.com
+Fecha cumpleaños: 09 de diciembre
+
+CLIENTE 292
+------------------------------
+Nombre: Derly Arévalo
+Cédula: 1071303519
+Email: efectyquetame29@gmail.com
+Fecha cumpleaños: 10 de diciembre
+
+CLIENTE 293
+------------------------------
+Nombre: Mayra Cabarcas
+Cédula: 1192923582
+Email: mayracabarcas11@gmail.com
+Fecha cumpleaños: 11 de agosto
+
+CLIENTE 294
+------------------------------
+Nombre: Tania Dickens López
+Cédula: 1123635965
+Email: taniadickens1606@gmail.com
+Fecha cumpleaños: 16 de julio
+
+CLIENTE 295
+------------------------------
+Nombre: María José Carvajal Ríos
+Cédula: 1000404597
+Email: mcarvajalrios4@gmail.com
+Fecha cumpleaños: 25 de noviembre
+
+CLIENTE 296
+------------------------------
+Nombre: Nicolás Sarmiento
+Cédula: 1001970641
+Email: nn.sarmientom@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 297
+------------------------------
+Nombre: Sara Velásquez
+Cédula: 1000536411
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 298
+------------------------------
+Nombre: María Paula Cuervo
+Cédula: 10001367602
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 299
+------------------------------
+Nombre: María Clara Ortiz
+Cédula: 1035974170
+Email: ortizossamariaclara@gmail.com
+Fecha cumpleaños: [Hoy🚨]
+
+CLIENTE 300
+------------------------------
+Nombre: Nicolle Valeria
+Cédula: 1000454262
+Email: nicollevaleria0217@gmail.com
+Fecha cumpleaños: 17 de febrero
+
+CLIENTE 301
+------------------------------
+Nombre: Valeria Aguirre Flórez
+Cédula: 1036675807
+Email: aguirreflorezv@gmail.com
+Fecha cumpleaños: 21 de noviembre
+
+CLIENTE 302
+------------------------------
+Nombre: Luisa Robledo
+Cédula: 1036651203
+Email: luisafero0223@hotmail.com
+Fecha cumpleaños: 23 de febrero
+
+CLIENTE 303
+------------------------------
+Nombre: Valentina Carmona Ramos
+Cédula: 1024577829
+Email: valitacr25@gmail.com
+Fecha cumpleaños: 25 de enero
+
+CLIENTE 304
+------------------------------
+Nombre: Daniela Lemos Casañas
+Cédula: 1046917466
+Email: d2-1999@hotmail.com
+Fecha cumpleaños: 03 de noviembre
+
+CLIENTE 305
+------------------------------
+Nombre: Jimena Caicedo Botero
+Cédula: 1007932100
+Email: jimenabotero180@gmail.com
+Fecha cumpleaños: 31 de enero
+
+CLIENTE 306
+------------------------------
+Nombre: Karen Castaño
+Cédula: 1098728189
+Email: karencv.0692@gmail.com
+Fecha cumpleaños: 06 de septiembre
+
+CLIENTE 307
+------------------------------
+Nombre: Felipe Toro Ríos
+Cédula: 1193218407
+Email: felipetoro1025@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 308
+------------------------------
+Nombre: Shally Carolina Mercado Carreño
+Cédula: 1004348485
+Email: shallymercado11@gmail.com
+Fecha cumpleaños: 11 de abril
+
+CLIENTE 309
+------------------------------
+Nombre: Estefanía Cardona Cruz
+Cédula: 1060656088
+Email: estefania.cardona1@ucm.edu.co
+Fecha cumpleaños: N/A
+
+CLIENTE 310
+------------------------------
+Nombre: Maria Fierro
+Cédula: 1144098198
+Email: mariaafierro97@gmail.com
+Fecha cumpleaños: 15 de agosto
+
+CLIENTE 311
+------------------------------
+Nombre: Johana Córdoba Guzmán
+Cédula: 1061745047
+Email: jokis_cordoba@hotmail.com
+Fecha cumpleaños: 02 de enero
+
+CLIENTE 312
+------------------------------
+Nombre: Juanita Díaz Parra
+Cédula: 1032490652
+Email: juanad6@gmail.com
+Fecha cumpleaños: 06 de mayo
+
+CLIENTE 313
+------------------------------
+Nombre: Lina María Meneses Feria
+Cédula: 1016102013
+Email: Linameneses3@gmail.com
+Fecha cumpleaños: 01 de abril
+
+CLIENTE 314
+------------------------------
+Nombre: Isabella Castro
+Cédula: 1034986430
+Email: isabella.castro0317@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 315
+------------------------------
+Nombre: María José Montenegro Montoya
+Cédula: 1127236575
+Email: majomontenegro5@outlook.com
+Fecha cumpleaños: 07 de marzo
+
+CLIENTE 316
+------------------------------
+Nombre: Daniela Gamboa
+Cédula: 1214736939
+Email: daniadamsgamboa@gmail.com
+Fecha cumpleaños: 05 de septiembre
+
+CLIENTE 317
+------------------------------
+Nombre: Dayana Vélez
+Cédula: 1001359404
+Email: dayanavelez06@gmail.com
+Fecha cumpleaños: 19 de febrero
+
+CLIENTE 318
+------------------------------
+Nombre: Juliana Muñoz
+Cédula: 1037630107
+Email: julianamunozg4@gmail.com
+Fecha cumpleaños: 21 de octubre
+
+CLIENTE 319
+------------------------------
+Nombre: Deisy Julieth Madrid Rincon
+Cédula: 1035229696
+Email: deisysasy@hotmail.com
+Fecha cumpleaños: 30 de noviembre
+
+CLIENTE 320
+------------------------------
+Nombre: Mary Isabel Rincón Cuervo
+Cédula: 51751897
+Email: mysarincon@hormail.com
+Fecha cumpleaños: 22 de noviembre
+
+CLIENTE 321
+------------------------------
+Nombre: Juan David Echeverry Cotrini
+Cédula: 1053825646
+Email: judecheverryco@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 322
+------------------------------
+Nombre: Santiago Sánchez Ramírez
+Cédula: 1036685262
+Email: 
+Fecha cumpleaños: 
+
+CLIENTE 323
+------------------------------
+Nombre: Nataly Cañas Vanegas
+Cédula: 1000413698
+Email: nataly.canasva@amigo.edu.co
+Fecha cumpleaños: 06 de noviembre
+
+CLIENTE 324
+------------------------------
+Nombre: Valentina zapata cano
+Cédula: 1000871025
+Email: Valentina.zapata.cano0123@gmail.com
+Fecha cumpleaños: 6 de mayo
+
+CLIENTE 325
+------------------------------
+Nombre: Laura Parra Pérez
+Cédula: 1000411981
+Email: Laura.parrap16@gmail.com
+Fecha cumpleaños: 23/11
+
+CLIENTE 326
+------------------------------
+Nombre: Brenda Ariza
+Cédula: 1032493072
+Email: brendajariza@gmail.com
+Fecha cumpleaños: Septiembre
+
+CLIENTE 327
+------------------------------
+Nombre: Daniela Arias
+Cédula: 1098821188
+Email: danielaarias9907@gmail.com
+Fecha cumpleaños: 18 de julio
+
+CLIENTE 328
+------------------------------
+Nombre: María Alejandra Chaves
+Cédula: 1019138512
+Email: alejachacasta98@gmail.com
+Fecha cumpleaños: 11 de enero
+
+CLIENTE 329
+------------------------------
+Nombre: Karen Sofia Rodriguez
+Cédula: 1033096548
+Email: karennssofia0704@gmail.com
+Fecha cumpleaños: 07/abril
+
+CLIENTE 330
+------------------------------
+Nombre: Laura Andrea Taborda Taborda
+Cédula: 1004027970
+Email: laurataborda2001@gmail.com
+Fecha cumpleaños: 23 de julio
+
+CLIENTE 331
+------------------------------
+Nombre: Magaly Patiño
+Cédula: 1010074484
+Email: mybaby3112@hotmail.com
+Fecha cumpleaños: 30-diciembre
+
+CLIENTE 332
+------------------------------
+Nombre: Camila Flórez Sierra
+Cédula: 1036688660
+Email: camila_0109f@hotmail.com
+Fecha cumpleaños: 03 de diciembre
+
+CLIENTE 333
+------------------------------
+Nombre: Carolina Graciano Saldarriaga
+Cédula: 1037669320
+Email: carolinagracianos@gmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 334
+------------------------------
+Nombre: Paola Tamayo
+Cédula: 1116268583
+Email: Pa.olita.295@hotmail.com
+Fecha cumpleaños: 29 de mayo
+
+CLIENTE 335
+------------------------------
+Nombre: Lina Hoyos
+Cédula: 1059785676
+Email: thomasospina220@gmail.com
+Fecha cumpleaños: 05 de septiembre
+
+CLIENTE 336
+------------------------------
+Nombre: Sandra Pulido
+Cédula: 52857083
+Email: sanjpv@hotmail.com
+Fecha cumpleaños: 09 de noviembre
+
+CLIENTE 337
+------------------------------
+Nombre: Danna Prieto
+Cédula: 1076739729
+Email: 182007dannamichelle@gmail.com
+Fecha cumpleaños: 1 de agosto
+
+CLIENTE 338
+------------------------------
+Nombre: Paula Buelvas Valderrama
+Cédula: 1088031856
+Email: buelvaspaula@hotmail.com
+Fecha cumpleaños: 02/10
+
+CLIENTE 339
+------------------------------
+Nombre: Maria Camila Aristizábal
+Cédula: 1037634612
+Email: mariacaristizabal1994@gmail.com
+Fecha cumpleaños: 04 de junio
+
+CLIENTE 340
+------------------------------
+Nombre: Santiago Villa Eraso
+Cédula: 1000745885
+Email: santy.lacom@hotmail.com
+Fecha cumpleaños: 26 de julio
+
+CLIENTE 341
+------------------------------
+Nombre: Verónica Tangarife
+Cédula: 1025760143
+Email: tangarifevero24@gmail.com
+Fecha cumpleaños: 24 de septiembre
+
+CLIENTE 342
+------------------------------
+Nombre: Alejandra Fernández
+Cédula: 1037647945
+Email: aleja.fdez.jllo@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 343
+------------------------------
+Nombre: Daniela Morelos
+Cédula: 1003193470
+Email: 
+Fecha cumpleaños: 28 septiembre
+
+CLIENTE 344
+------------------------------
+Nombre: Valentina Dávila
+Cédula: 1036688974
+Email: valentinadavila222@gmail.com
+Fecha cumpleaños: 02 de enero
+
+CLIENTE 345
+------------------------------
+Nombre: Valeria Muñoz Lopera
+Cédula: 1017922044
+Email: valeriamunoz0506@gmail.com
+Fecha cumpleaños: 06 de mayo
+
+CLIENTE 346
+------------------------------
+Nombre: Sara Tobon pajaro
+Cédula: 1000755966
+Email: saratobon15@gmail.com
+Fecha cumpleaños: 13 abril
+
+CLIENTE 347
+------------------------------
+Nombre: María José Rodríguez Bonilla
+Cédula: 1000416985
+Email: mariajoserodriguezb@hotmail.com
+Fecha cumpleaños: 09 de septiembre
+
+CLIENTE 348
+------------------------------
+Nombre: Heidy Hernández
+Cédula: 1097782160
+Email: karollhernandez37@gmail.com
+Fecha cumpleaños: 19 de junio
+
+CLIENTE 349
+------------------------------
+Nombre: Ricardo González
+Cédula: 1088280297
+Email: contabilidad@poluzka.co
+Fecha cumpleaños: N/A
+
+CLIENTE 350
+------------------------------
+Nombre: Maria Alejandra Herrera González
+Cédula: 1013102423
+Email: algn1265@gmail.com
+Fecha cumpleaños: 26 de octubre
+
+CLIENTE 351
+------------------------------
+Nombre: Paula Hernández Aya
+Cédula: 1109920094
+Email: pauaya05@hotmail.com
+Fecha cumpleaños: 08 de enero
+
+CLIENTE 352
+------------------------------
+Nombre: Natalia Giraldo
+Cédula: 1116233566
+Email: nataliagiraldoescobar@gmail.com
+Fecha cumpleaños: 17 de junio
+
+CLIENTE 353
+------------------------------
+Nombre: Andrea Carolina Jiménez
+Cédula: 1045738561
+Email: andreaj231@gmail.com
+Fecha cumpleaños: 24 de abril
+
+CLIENTE 354
+------------------------------
+Nombre: Natalia Giraldo Zuluaga
+Cédula: 1007327004
+Email: nataliag280301@gmail.com
+Fecha cumpleaños: 28 de marzo
+
+CLIENTE 355
+------------------------------
+Nombre: Danny Steffany Amaya Solano
+Cédula: 
+Email: primortiendamultimarca@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 356
+------------------------------
+Nombre: Yesenia García Causil
+Cédula: 1017185311
+Email: yesegarcia28@hotmail.com
+Fecha cumpleaños: 28 de octubre
+
+CLIENTE 357
+------------------------------
+Nombre: Yirleira Pajaro
+Cédula: 1002392749
+Email: ypajarosantos@gmail.com
+Fecha cumpleaños: 28 de diciembre
+
+CLIENTE 358
+------------------------------
+Nombre: Lina María Castillo Rozo
+Cédula: 1002461934
+Email: limacasro@gmail.com
+Fecha cumpleaños: 27 de abril
+
+CLIENTE 359
+------------------------------
+Nombre: Evelyn Canon
+Cédula: 1026278246
+Email: evelyn.canonz@gmail.com
+Fecha cumpleaños: 25 de febrero
+
+CLIENTE 360
+------------------------------
+Nombre: María Fernanda Picón Peña
+Cédula: 1005210979
+Email: mariapicon0311@gmail.com
+Fecha cumpleaños: 03 de noviembre
+
+CLIENTE 361
+------------------------------
+Nombre: Jéssica Lozano
+Cédula: 1110544980
+Email: jessikaperillalozano@gmail.com
+Fecha cumpleaños: 13 de diciembre
+
+CLIENTE 362
+------------------------------
+Nombre: Carolina Botero Acevedo
+Cédula: 1152444834
+Email: carolinab_93@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 363
+------------------------------
+Nombre: Shirly Oñate Castro
+Cédula: 1098810863
+Email: shirly5214@hotmail.com
+Fecha cumpleaños: 06 de septiembre
+
+CLIENTE 364
+------------------------------
+Nombre: Sandra Milena Prieto
+Cédula: 1030673082
+Email: samipri064@gmail.com
+Fecha cumpleaños: 14 de diciembre
+
+CLIENTE 365
+------------------------------
+Nombre: Evelyn Duque Yepes
+Cédula: 1037656712
+Email: evelyn.duque12@gmail.com
+Fecha cumpleaños: 12 de junio
+
+CLIENTE 366
+------------------------------
+Nombre: Sara Sofía Ramos Casanova
+Cédula: 1109664041
+Email: saradeleandro777@gmail.com
+Fecha cumpleaños: 21 octubre
+
+CLIENTE 367
+------------------------------
+Nombre: Paulina González Hernández
+Cédula: 1033486359
+Email: pgonzalezzh@gmail.com
+Fecha cumpleaños: 20 de marzo
+
+CLIENTE 368
+------------------------------
+Nombre: Viviana Grosso Guzmán
+Cédula: 52273028
+Email: vivianagrossoguzman@gmail.com
+Fecha cumpleaños: 15 de junio
+
+CLIENTE 369
+------------------------------
+Nombre: Leidy Yijana Salazar
+Cédula: 1027881361
+Email: salazar.yijana@gmail.com
+Fecha cumpleaños: 20 de agosto
+
+CLIENTE 370
+------------------------------
+Nombre: María Paula Olarte
+Cédula: 1018474478
+Email: mariapaula_1795@hotmail.com
+Fecha cumpleaños: 04 de marzo
+
+CLIENTE 371
+------------------------------
+Nombre: Alexa Stephanie Pineda Rodríguez
+Cédula: 1094911658
+Email: cactusmakeup6@gmail.com
+Fecha cumpleaños: 30 de marzo
+
+CLIENTE 372
+------------------------------
+Nombre: Manuela Fernanda Forero Mejía
+Cédula: 1049622952
+Email: manu.forero26@gmail.com
+Fecha cumpleaños: 26 de agosto
+
+CLIENTE 373
+------------------------------
+Nombre: María Camila Hernández Medina
+Cédula: 1037638105
+Email: mariach161@hotmail.com
+Fecha cumpleaños: 26 de julio
+
+CLIENTE 374
+------------------------------
+Nombre: Marcela Cetina Gil
+Cédula: 1038125693
+Email: marsh94@hotmail.com
+Fecha cumpleaños: 17 de julio
+
+CLIENTE 375
+------------------------------
+Nombre: Maria Fernanda Perilla Rojas
+Cédula: 1032499244
+Email: mafeperillarojas@gmail.com
+Fecha cumpleaños: 31 de julio
+
+CLIENTE 376
+------------------------------
+Nombre: Sara Valencia Montoya
+Cédula: 
+Email: liriobysaravamo@gmail.com
+Fecha cumpleaños: 27 de agosto
+
+CLIENTE 377
+------------------------------
+Nombre: Alejandra Sánchez
+Cédula: 1098707822
+Email: ale.sanchez.paez@hotmail.com
+Fecha cumpleaños: 05 de julio
+
+CLIENTE 378
+------------------------------
+Nombre: Laura Aristizábal Gómez
+Cédula: 1039474391
+Email: lauraris4mar@gmail.com
+Fecha cumpleaños: 04 de marzo
+
+CLIENTE 379
+------------------------------
+Nombre: Alejandra Mejía Restrepo
+Cédula: 1225090413
+Email: alejandramejiarestrepo@hotmail.com
+Fecha cumpleaños: 09 de marzo
+
+CLIENTE 380
+------------------------------
+Nombre: Paula Gutiérrez Ramírez
+Cédula: 1040042531
+Email: paulagramirez@gmail.com
+Fecha cumpleaños: 04 de marzo
+
+CLIENTE 381
+------------------------------
+Nombre: Gibeth Valencia
+Cédula: 1000442721
+Email: gibeth2002@gmail.com
+Fecha cumpleaños: 27 de diciembre
+
+CLIENTE 382
+------------------------------
+Nombre: María Jose Montenegro Montoya
+Cédula: 1127236575
+Email: majomontenegro5@outlook.com
+Fecha cumpleaños: 07 de marzo
+
+CLIENTE 383
+------------------------------
+Nombre: Andrea Arbeláez
+Cédula: 1020408752
+Email: ktica0327@gmail.com
+Fecha cumpleaños: 30 de agosto
+
+CLIENTE 384
+------------------------------
+Nombre: Karina Betancur
+Cédula: 1000539889
+Email: karinabm1122@gmail.com
+Fecha cumpleaños: 24 de diciembre
+
+CLIENTE 385
+------------------------------
+Nombre: Ivonne Natalia Vidales
+Cédula: 1128405242
+Email: ivonne.natalia.vidales@gmail.com
+Fecha cumpleaños: 25 de enero
+
+CLIENTE 386
+------------------------------
+Nombre: Manuela Ríos
+Cédula: 1089598629
+Email: manu070400@gmail.com
+Fecha cumpleaños: 07 de abril
+
+CLIENTE 387
+------------------------------
+Nombre: Yulitza Córdoba
+Cédula: 1007550827
+Email: yulitzacordobac31@gmail.com
+Fecha cumpleaños: 31 de Agosto
+
+CLIENTE 388
+------------------------------
+Nombre: María Camila Castillo Saldarriaga
+Cédula: 1017241659
+Email: castillocamila96@gmail.com
+Fecha cumpleaños: 21 de noviembre
+
+CLIENTE 389
+------------------------------
+Nombre: Lorena Hincapié Díaz
+Cédula: 1013458535
+Email: lhincapie728@gmail.com
+Fecha cumpleaños: 09 de diciembre
+
+CLIENTE 390
+------------------------------
+Nombre: Salma Grajales Caro
+Cédula: 43444827
+Email: salmaisabellacaro@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 391
+------------------------------
+Nombre: Sara Cardona
+Cédula: 1037647111
+Email: sycardonav@unal.edu.co
+Fecha cumpleaños: 23 de diciembre
+
+CLIENTE 392
+------------------------------
+Nombre: Natalia Uribe
+Cédula: 1037662206
+Email: nataliau11@hotmail.com
+Fecha cumpleaños: 08 de mayo
+
+CLIENTE 393
+------------------------------
+Nombre: Marianth Salas
+Cédula: 1010240197
+Email: fersalas_@outlook.com
+Fecha cumpleaños: Junio
+
+CLIENTE 394
+------------------------------
+Nombre: Juliana Cardona Ortiz
+Cédula: 1001233953
+Email: cardonaortizjuliana@gmail.com
+Fecha cumpleaños: 28/05
+
+CLIENTE 395
+------------------------------
+Nombre: Valentina Rivera Izquierdo
+Cédula: 1069642689
+Email: valentinariverax17@gmail.com
+Fecha cumpleaños: 29 de abril
+
+CLIENTE 396
+------------------------------
+Nombre: Nikol Gil
+Cédula: 1005259362
+Email: nikolgil443@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 397
+------------------------------
+Nombre: Anna Curtidor
+Cédula: 1019134440
+Email: anitacurtinfante@gmail.com
+Fecha cumpleaños: 28 de agosto
+
+CLIENTE 398
+------------------------------
+Nombre: María Fernanda Navarro Mayorga
+Cédula: 1097493818
+Email: arias1007967971@gmail.com
+Fecha cumpleaños: 15 de julio
+
+CLIENTE 399
+------------------------------
+Nombre: Angie milena Clavijo Pérez
+Cédula: 1143406315
+Email: angieclavijo0413@gmail.com
+Fecha cumpleaños: 13 de abril
+
+CLIENTE 400
+------------------------------
+Nombre: Ana Mayo
+Cédula: 1017211452
+Email: marcevelez93@gmail.com
+Fecha cumpleaños: 14 de junio
+
+CLIENTE 401
+------------------------------
+Nombre: María Camila Ortiz
+Cédula: 1000098412
+Email: pimiso2000@gmail.com
+Fecha cumpleaños: 19 de abril
+
+CLIENTE 402
+------------------------------
+Nombre: Valentina Arias Toro
+Cédula: 1000556675
+Email: ariasvale2302@gmail.com
+Fecha cumpleaños: 23 de febrero
+
+CLIENTE 403
+------------------------------
+Nombre: Sara Corrales
+Cédula: 1193150515
+Email: sara73corrales@gmail.com
+Fecha cumpleaños: 17 de octubre
+
+CLIENTE 404
+------------------------------
+Nombre: Carolina Barrero Barrero
+Cédula: 1022940012
+Email: carolinbrr@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 405
+------------------------------
+Nombre: Alejandra Roldán Marín
+Cédula: 1020417429
+Email: alroma1020@gmail.com
+Fecha cumpleaños: 18 de noviembre
+
+CLIENTE 406
+------------------------------
+Nombre: Dayana Vélez
+Cédula: 1001359404
+Email: dayanavelez06@gmail.com
+Fecha cumpleaños: 19 de febrero
+
+CLIENTE 407
+------------------------------
+Nombre: Maryury Calderón Viancha
+Cédula: 1118559472
+Email: maryurycalderon0409@gmail.com
+Fecha cumpleaños: 04 de septiembre
+
+CLIENTE 408
+------------------------------
+Nombre: Jailyn Cárdenas Marín
+Cédula: 1033256039
+Email: jailyncardenasmarin@gmail.com
+Fecha cumpleaños: 04 de octubre
+
+CLIENTE 409
+------------------------------
+Nombre: Andrea Hereira Baruke
+Cédula: 1234090086
+Email: andreahereiracm@gmail.com
+Fecha cumpleaños: 21 de noviembre
+
+CLIENTE 410
+------------------------------
+Nombre: Ana Gonzalez
+Cédula: 1001686793
+Email: ana12gonzalez25@gmail.com
+Fecha cumpleaños: 25 de diciembre
+
+CLIENTE 411
+------------------------------
+Nombre: Katheryne Muñoz
+Cédula: 43925086
+Email: kathe408@hotmail.com
+Fecha cumpleaños: 08 de marzo
+
+CLIENTE 412
+------------------------------
+Nombre: Kelly Johanna Arias Mosquera
+Cédula: 1006181951
+Email: kellyjohann0602@gmail.com
+Fecha cumpleaños: 06/02/2003
+
+CLIENTE 413
+------------------------------
+Nombre: Mariana Díaz Barrios
+Cédula: 1012319316
+Email: maridiaz0404@gmail.com
+Fecha cumpleaños: 04 de abril
+
+CLIENTE 414
+------------------------------
+Nombre: Daniela Duque
+Cédula: 1152194197
+Email: saritanihat@hotmail.com
+Fecha cumpleaños: 14/12
+
+CLIENTE 415
+------------------------------
+Nombre: Diana Velandia
+Cédula: 1022431341
+Email: dvelandia.2097@gmail.com
+Fecha cumpleaños: 20 de noviembre
+
+CLIENTE 416
+------------------------------
+Nombre: Isabela Hernández Cañas
+Cédula: 1035414072
+Email: isabelahernandezcanas@gmail.com
+Fecha cumpleaños: 23 de febrero
+
+CLIENTE 417
+------------------------------
+Nombre: Stefany Sepúlveda Moreno
+Cédula: 1037642888
+Email: stefa-9505@hotmail.com
+Fecha cumpleaños: 09 de mayo
+
+CLIENTE 418
+------------------------------
+Nombre: Manuela Marín Ortiz
+Cédula: 1034987580
+Email: m35682805@gmail.com
+Fecha cumpleaños: 08 de enero
+
+CLIENTE 419
+------------------------------
+Nombre: Maylen Vanessa Arteta Miranda
+Cédula: 1143457575
+Email: maylenarteta@hotmail.com
+Fecha cumpleaños: 05 de septiembre
+
+CLIENTE 420
+------------------------------
+Nombre: María Camila Álvarez
+Cédula: 1039471600
+Email: 
+Fecha cumpleaños: 20 de febrero
+
+CLIENTE 421
+------------------------------
+Nombre: Carolina Posada
+Cédula: 1021804814
+Email: aposadacalle@gmail.com
+Fecha cumpleaños: 05 de agosto
+
+CLIENTE 422
+------------------------------
+Nombre: Angely Vente Diaz
+Cédula: 1005944125
+Email: angelyvd213@gmail.com
+Fecha cumpleaños: 13 / 02
+
+CLIENTE 423
+------------------------------
+Nombre: Dahiana Torres
+Cédula: 1006319069
+Email: jeimytorresj@gmail.com
+Fecha cumpleaños: 25 de septiembre
+
+CLIENTE 424
+------------------------------
+Nombre: Yesenia García Causil
+Cédula: 1017185311
+Email: yesegarcia28@hotmail.com
+Fecha cumpleaños: 28 de octubre
+
+CLIENTE 425
+------------------------------
+Nombre: Estefanía Espinosa Londoño
+Cédula: 1152192217
+Email: estefa_610@hotmail.com
+Fecha cumpleaños: 10 de junio
+
+CLIENTE 426
+------------------------------
+Nombre: Mariana Orozco Ramírez
+Cédula: 1001618134
+Email: marianaorozcoramirez48@gmail.com
+Fecha cumpleaños: 20 de noviembre
+
+CLIENTE 427
+------------------------------
+Nombre: Judith Alejandra López Poveda
+Cédula: 1016040449
+Email: alejandra.lopez.gb@gmail.com
+Fecha cumpleaños: 07 de octubre
+
+CLIENTE 428
+------------------------------
+Nombre: Ligia Fernanda Rojas Sarmiento
+Cédula: 1076667404
+Email: ligiarojassar@gmail.com
+Fecha cumpleaños: 26 de febrero
+
+CLIENTE 429
+------------------------------
+Nombre: Ligia Fernanda Rojas Sarmiento
+Cédula: 1076667404
+Email: ligiarojassar@gmail.com
+Fecha cumpleaños: 26 de febrero
+
+CLIENTE 430
+------------------------------
+Nombre: Evelyn Cardona Restrepo
+Cédula: 1037636076
+Email: eve2814_@hotmail.com
+Fecha cumpleaños: 28 de junio
+
+CLIENTE 431
+------------------------------
+Nombre: Windirley Daniela Lorza
+Cédula: 1193572005
+Email: windirley22@gmial.com
+Fecha cumpleaños: 22/06/2025
+
+CLIENTE 432
+------------------------------
+Nombre: Lucas Fernando Ramírez
+Cédula: 1017245132
+Email: lucasre97@gmail.com
+Fecha cumpleaños: 08 de marzo
+
+CLIENTE 433
+------------------------------
+Nombre: Ivonne Natalia Vidales
+Cédula: 1128405242
+Email: ivonne.natalia.vidales@gmail.com
+Fecha cumpleaños: 25 de enero
+
+CLIENTE 434
+------------------------------
+Nombre: Ana Sofía Acevedo Muñoz
+Cédula: 1039475112
+Email: m701rodriguez@gmail.com
+Fecha cumpleaños: 28 de junio
+
+CLIENTE 435
+------------------------------
+Nombre: Isabella Duque Ramírez
+Cédula: 1114148309
+Email: isabelladuquer20@gmail.com
+Fecha cumpleaños: 20 de febrero
+
+CLIENTE 436
+------------------------------
+Nombre: Eunice Beltrán
+Cédula: 4896790
+Email: euniceitamar31@gmail.com
+Fecha cumpleaños: 16 de Octubre
+
+CLIENTE 437
+------------------------------
+Nombre: María Paz Álzate González
+Cédula: 1088354755
+Email: alzatemariapaz04@gmail.com
+Fecha cumpleaños: 04 de mayo
+
+CLIENTE 438
+------------------------------
+Nombre: Camila Jaramillo
+Cédula: 1193071407
+Email: mcamilajaramillo18@gmail.com
+Fecha cumpleaños: 08 de junio
+
+CLIENTE 439
+------------------------------
+Nombre: Laura Camila Duque
+Cédula: 1036965648
+Email: lauraduque145@gmail.com
+Fecha cumpleaños: 02 de mayo
+
+CLIENTE 440
+------------------------------
+Nombre: Sebastián Ossa Calle
+Cédula: 1152202726
+Email: sebas.calle.ossa@hotmail.com
+Fecha cumpleaños: 
+
+CLIENTE 441
+------------------------------
+Nombre: María Jose Montenegro Montoya
+Cédula: 1127236575
+Email: majomontenegro5@outlook.com
+Fecha cumpleaños: 07 de marzo
+
+CLIENTE 442
+------------------------------
+Nombre: Juan David Echeverry Cotrini
+Cédula: 1053825646
+Email: judecheverryco@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 443
+------------------------------
+Nombre: Isabel Hincapié Orozco
+Cédula: 1047973270
+Email: xhincapie50@gmail.com
+Fecha cumpleaños: 28 de mayo
+
+CLIENTE 444
+------------------------------
+Nombre: María Alejandra Castrillón
+Cédula: 1039458519
+Email: castrillonmale1111@gmail.com
+Fecha cumpleaños: 21 de noviembre
+
+CLIENTE 445
+------------------------------
+Nombre: Vanesa Mejía
+Cédula: 1037611838
+Email: vanem180@hotmail.com
+Fecha cumpleaños: 25 de octubre
+
+CLIENTE 446
+------------------------------
+Nombre: Myriam Cardozo Delgado
+Cédula: 35323480
+Email: oresgo14@hotmail.com
+Fecha cumpleaños: 04 de abril
+
+CLIENTE 447
+------------------------------
+Nombre: María Fernanda Díaz Verhelst
+Cédula: 1143415514
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 448
+------------------------------
+Nombre: Jennifer Rivera Herrera
+Cédula: 43928138
+Email: jenniferiveraherrera@gmail.com
+Fecha cumpleaños: 12 de diciembre
+
+CLIENTE 449
+------------------------------
+Nombre: Nathaly Vergara
+Cédula: 1010247965
+Email: nathalyv9909@gmail.com
+Fecha cumpleaños: 23/09
+
+CLIENTE 450
+------------------------------
+Nombre: Deisy zapata
+Cédula: 1128425872
+Email: nechy123@hotmail.com
+Fecha cumpleaños: 8 de febrero
+
+CLIENTE 451
+------------------------------
+Nombre: Dahiana Torres
+Cédula: 1006319069
+Email: jeimytorresj@gmail.com
+Fecha cumpleaños: 25 de septiembre
+
+CLIENTE 452
+------------------------------
+Nombre: Alexandra Álvarez
+Cédula: 1040323052
+Email: alexandritatwenty@gmail.com
+Fecha cumpleaños: 01/06
+
+CLIENTE 453
+------------------------------
+Nombre: Carolina Graciano Saldarriaga
+Cédula: 1037669320
+Email: carolinagracianos@gmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 454
+------------------------------
+Nombre: Kelly Vergara Arango
+Cédula: 1010029335
+Email: Kellyvergaraarango@gmail.com
+Fecha cumpleaños: 08 de julio
+
+CLIENTE 455
+------------------------------
+Nombre: Camilo Mosquera
+Cédula: 1214717823
+Email: edycmt@hotmail.com
+Fecha cumpleaños: 16 de abril
+
+CLIENTE 456
+------------------------------
+Nombre: Valentina Montoya Cadavid
+Cédula: 1040758860
+Email: valentinamc3023@gmail.com
+Fecha cumpleaños: 30 de junio
+
+CLIENTE 457
+------------------------------
+Nombre: Ingrid ginnary Angarita morales
+Cédula: 1098768004
+Email: ginnaryangarita@gmail.com
+Fecha cumpleaños: 13 de abril
+
+CLIENTE 458
+------------------------------
+Nombre: Isabel Aguirre
+Cédula: 1017236584
+Email: isabel.palacio@hotmail.com
+Fecha cumpleaños: 07 de julio
+
+CLIENTE 459
+------------------------------
+Nombre: Laura Londoño
+Cédula: 1020787465
+Email: lau_londga@hotmail.com
+Fecha cumpleaños: 15 de octubre
+
+CLIENTE 460
+------------------------------
+Nombre: Valentina Suárez
+Cédula: 1037670674
+Email: valensuarez2012@gmail.com
+Fecha cumpleaños: 21 de septiembre
+
+CLIENTE 461
+------------------------------
+Nombre: Laura Vélez
+Cédula: 1001618495
+Email: lauravelez155@gmail.com
+Fecha cumpleaños: 29 de julio
+
+CLIENTE 462
+------------------------------
+Nombre: Oscar Ignacio Chaverra Cano
+Cédula: 70134834
+Email: facturacioncocopinkstore@gmail.com
+Fecha cumpleaños: 02 de enero
+
+CLIENTE 463
+------------------------------
+Nombre: Yeny Paola Gutiérrez Ocampo
+Cédula: 32297260
+Email: yenypaolagutierrezocampo@gmail.com
+Fecha cumpleaños: 21 de marzo
+
+CLIENTE 464
+------------------------------
+Nombre: Ana María Cruz Mejía
+Cédula: 1014294738
+Email: anamacruz@hotmail.es
+Fecha cumpleaños: N/A
+
+CLIENTE 465
+------------------------------
+Nombre: Maria Borja
+Cédula: 1127186036
+Email: mariapborja97@gmail.com
+Fecha cumpleaños: 11 de junio
+
+CLIENTE 466
+------------------------------
+Nombre: Maria Camila Giraldo Posada
+Cédula: 1128482848
+Email: camilagipo@gmail.com
+Fecha cumpleaños: 26 de diciembre
+
+CLIENTE 467
+------------------------------
+Nombre: Jéssica Mendivelso
+Cédula: 1054252710
+Email: jesmendi2018@gmail.com
+Fecha cumpleaños: 16 de julio
+
+CLIENTE 468
+------------------------------
+Nombre: Verónica Ramírez
+Cédula: 1000206219
+Email: giraldoveronica928@gmail.com
+Fecha cumpleaños: 25 de junio
+
+CLIENTE 469
+------------------------------
+Nombre: Daniela Benavides Cobos
+Cédula: 1091378709
+Email: dannibecos@gmail.com
+Fecha cumpleaños: 17 de enero
+
+CLIENTE 470
+------------------------------
+Nombre: Alison Carolina Chávez Morera
+Cédula: 1027280465
+Email: alisonmorera1719@gmail.com
+Fecha cumpleaños: 10 de abril
+
+CLIENTE 471
+------------------------------
+Nombre: Kassandra Valdéz
+Cédula: 28267579
+Email: kassandrav131@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 472
+------------------------------
+Nombre: Vannesa Garcés
+Cédula: 1007761444
+Email: vannesagarces901@gmail.com
+Fecha cumpleaños: 27 de julio
+
+CLIENTE 473
+------------------------------
+Nombre: Vannesa Alejandra Montero Vargas
+Cédula: 1000593134
+Email: vannesamontero2327@gmail.com
+Fecha cumpleaños: 23 de enero
+
+CLIENTE 474
+------------------------------
+Nombre: Diana Ospina
+Cédula: 1016092237
+Email: dianasosgarcia@gmail.com
+Fecha cumpleaños: 31 de enero
+
+CLIENTE 475
+------------------------------
+Nombre: Paola Ramírez
+Cédula: 1010244984
+Email: jinnapaola.ramirez@gmail.com
+Fecha cumpleaños: 19 de marzo
+
+CLIENTE 476
+------------------------------
+Nombre: Jenny Pérez
+Cédula: 1026276030
+Email: jennyperezmecon@gmail.com
+Fecha cumpleaños: 09 de octubre
+
+CLIENTE 477
+------------------------------
+Nombre: Sofía Duque
+Cédula: 1001367023
+Email: sofiaduque308@gmail.com
+Fecha cumpleaños: 30 de Agosto
+
+CLIENTE 478
+------------------------------
+Nombre: Valeria Moreno Montañez
+Cédula: 1001084169
+Email: valeriamoreno7707@gmail.com
+Fecha cumpleaños: 24 de abril
+
+CLIENTE 479
+------------------------------
+Nombre: María Camila Celis
+Cédula: 1005183425
+Email: mariacamilacelis@hotmail.com
+Fecha cumpleaños: 10 de octubre
+
+CLIENTE 480
+------------------------------
+Nombre: Juliana Zapata
+Cédula: 1000540028
+Email: julianazbenitez09@gmail.com
+Fecha cumpleaños: 9 de septiembre
+
+CLIENTE 481
+------------------------------
+Nombre: Milena Mira Cañas
+Cédula: 1037631353
+Email: milena.mira.c@gmail.com
+Fecha cumpleaños: 28 Noviembre
+
+CLIENTE 482
+------------------------------
+Nombre: Valentina Londoño Molina
+Cédula: 1035922253
+Email: valentinalm1099@gmail.com
+Fecha cumpleaños: 10 de agosto
+
+CLIENTE 483
+------------------------------
+Nombre: Yaniza Ramírez Gómez
+Cédula: 1118848465
+Email: yanitzargomez@gmail.com
+Fecha cumpleaños: 19 de noviembre
+
+CLIENTE 484
+------------------------------
+Nombre: Mariana Toro Ruiz
+Cédula: 1038869015
+Email: nanatruiz1225@gmail.com
+Fecha cumpleaños: 18 de julio
+
+CLIENTE 485
+------------------------------
+Nombre: Laura Alejandra Beltrán
+Cédula: 1021673400
+Email: alejandrabmt0110@gmail.com
+Fecha cumpleaños: 10 enero
+
+CLIENTE 486
+------------------------------
+Nombre: Valentina Molina
+Cédula: 1001819694
+Email: vyvmolinadiaz@gmail.com
+Fecha cumpleaños: 16 de abril
+
+CLIENTE 487
+------------------------------
+Nombre: Fernanda Grajales Figueroa
+Cédula: 1006008554
+Email: Makai.fg3@gmail.com
+Fecha cumpleaños: 29 de marzo
+
+CLIENTE 488
+------------------------------
+Nombre: Ana Isabel Isaza Acevedo
+Cédula: 1001227829
+Email: anaisazaacevedo@gmail.com
+Fecha cumpleaños: 11 de diciembre
+
+CLIENTE 489
+------------------------------
+Nombre: Gisselle López Oliveros
+Cédula: 1083011706
+Email: gisselopez34@gmail.com
+Fecha cumpleaños: 03 de abril
+
+CLIENTE 490
+------------------------------
+Nombre: Carolina Estrada
+Cédula: 1000413639
+Email: estradagonzalezcarolina179@gmail.com
+Fecha cumpleaños: 7 de marzo
+
+CLIENTE 491
+------------------------------
+Nombre: Carolina Velásquez
+Cédula: 1000645896
+Email: velasquezcarolina2730@gmail.com
+Fecha cumpleaños: 30 de julio
+
+CLIENTE 492
+------------------------------
+Nombre: Valentina Valencia Marín
+Cédula: 1152467080
+Email: valenciamarinv@gmail.com
+Fecha cumpleaños: 30 de julio
+
+CLIENTE 493
+------------------------------
+Nombre: Laura Valencia
+Cédula: 1007634089
+Email: 
+Fecha cumpleaños: 
+
+CLIENTE 494
+------------------------------
+Nombre: Carolina Serna
+Cédula: 1037641046
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 495
+------------------------------
+Nombre: Paola Silva
+Cédula: 1013632110
+Email: andrea.silbel@gmail.com
+Fecha cumpleaños: 01 de mayo
+
+CLIENTE 496
+------------------------------
+Nombre: Maria José Botero Vargas
+Cédula: 1037629233
+Email: mariajobv@gmail.com
+Fecha cumpleaños: 22 de septiembre
+
+CLIENTE 497
+------------------------------
+Nombre: Luz Daniela Leaño Alfonso
+Cédula: 1120385562
+Email: 
+Fecha cumpleaños: 29 de octubre
+
+CLIENTE 498
+------------------------------
+Nombre: Danna Castillo
+Cédula: 1061708646
+Email: dannacastillo035@gmail.com
+Fecha cumpleaños: 08 de junio
+
+CLIENTE 499
+------------------------------
+Nombre: Valentina Garcia Losada
+Cédula: 1232598053
+Email: Garciavalentina594@gmail.com
+Fecha cumpleaños: 14 de septiembre
+
+CLIENTE 500
+------------------------------
+Nombre: Elizabeth Valencia Álvarez
+Cédula: 1216722394
+Email: 
+Fecha cumpleaños: 14 de diciembre
+
+CLIENTE 501
+------------------------------
+Nombre: Natalia Gelves Herrera
+Cédula: 1095823626
+Email: naty_1595@hotmail.com
+Fecha cumpleaños: 15 de marzo
+
+CLIENTE 502
+------------------------------
+Nombre: Paola Alejandra Quintana Pamplona
+Cédula: 1026286365
+Email: paolajms@yahoo.es
+Fecha cumpleaños: 11 de noviembre
+
+CLIENTE 503
+------------------------------
+Nombre: Luisa Leon
+Cédula: 1006504762
+Email: lufelecu113@gmail.com
+Fecha cumpleaños: 30/09
+
+CLIENTE 504
+------------------------------
+Nombre: Diana Salgado Sotomayor
+Cédula: 35144377
+Email: dicasaso@hotmail.com
+Fecha cumpleaños: 11 de diciembre
+
+CLIENTE 505
+------------------------------
+Nombre: Valentina Rojas Oliveros
+Cédula: 1123432101
+Email: val.rojaso18@gmail.com
+Fecha cumpleaños: Enero
+
+CLIENTE 506
+------------------------------
+Nombre: Alejandra Agredo Sotelo
+Cédula: 1062327204
+Email: designerlashbrow.as@icloud.com
+Fecha cumpleaños: 12 de agosto
+
+CLIENTE 507
+------------------------------
+Nombre: Liset Alejandra Niño Ramirez
+Cédula: 1010044576
+Email: liset.ninoramirez10@gmail.com
+Fecha cumpleaños: 10 de febrero
+
+CLIENTE 508
+------------------------------
+Nombre: Andrea Rúa Arango
+Cédula: 1152456247
+Email: andrerua18@gmail.com
+Fecha cumpleaños: 15 de noviembre
+
+CLIENTE 509
+------------------------------
+Nombre: Ingrid estefania Ramirez cardona
+Cédula: 10311553444
+Email: tefacardona94@hotmail.com
+Fecha cumpleaños: Julio
+
+CLIENTE 510
+------------------------------
+Nombre: Luz Taborda
+Cédula: 1036683877
+Email: janetaborda2018@gmail.com
+Fecha cumpleaños: 08-02
+
+CLIENTE 511
+------------------------------
+Nombre: Natalia Torres Copete
+Cédula: 1116282446
+Email: nt31919@gmail.com
+Fecha cumpleaños: 24 de abril
+
+CLIENTE 512
+------------------------------
+Nombre: Aislyn Alexandra Reguillo Consuegra
+Cédula: 1143163837
+Email: aislynr01@hotmail.com
+Fecha cumpleaños: 1 de enero
+
+CLIENTE 513
+------------------------------
+Nombre: Laura Aguirre
+Cédula: 1003049019
+Email: lauraaguirre4848@gmail.com
+Fecha cumpleaños: 29 de agosto
+
+CLIENTE 514
+------------------------------
+Nombre: Norma Pineda Rojas
+Cédula: 1122653359
+Email: normapinedarojas@gmail.com
+Fecha cumpleaños: 07 de enero
+
+CLIENTE 515
+------------------------------
+Nombre: Katerine Pérez
+Cédula: 1152222849
+Email: katerinep1998@hotmail.com
+Fecha cumpleaños: 19 de octubre
+
+CLIENTE 516
+------------------------------
+Nombre: Daniela Palacio Patiño
+Cédula: 1152226683
+Email: danipala2@yahoo.com
+Fecha cumpleaños: 30 de octubre
+
+CLIENTE 517
+------------------------------
+Nombre: Fernanda Grajales Figueroa
+Cédula: 1006008554
+Email: Makai.fg3@gmail.com
+Fecha cumpleaños: 29 de marzo
+
+CLIENTE 518
+------------------------------
+Nombre: Natalia Serna Velásquez
+Cédula: 1036950369
+Email: nasertiendavirtual@gmail.com
+Fecha cumpleaños: 30 de junio
+
+CLIENTE 519
+------------------------------
+Nombre: Paula Katherine Giraldo Zuluaga
+Cédula: 1022372827
+Email: kathe.giraldoz07@hotmail.com
+Fecha cumpleaños: 27 de diciembre
+
+CLIENTE 520
+------------------------------
+Nombre: Juan Tabares
+Cédula: 1152222278
+Email: juantabares@outlook.es
+Fecha cumpleaños: 7 agosto
+
+CLIENTE 521
+------------------------------
+Nombre: Juliana Echavarría Castaño
+Cédula: 1035435386
+Email: juliana.ec14@gmail.com
+Fecha cumpleaños: 14 de marzo
+
+CLIENTE 522
+------------------------------
+Nombre: Maria Amaya
+Cédula: 1007283555
+Email: camila.amaya0504@hotmail.com
+Fecha cumpleaños: 05 de abril
+
+CLIENTE 523
+------------------------------
+Nombre: Sara Restrepo Vanegas
+Cédula: 1152471058
+Email: saris.13233@gmail.com
+Fecha cumpleaños: 02 de septiembre
+
+CLIENTE 524
+------------------------------
+Nombre: Alejandra Ardila Delgado
+Cédula: 1098736125
+Email: aleardilacon@gmail.com
+Fecha cumpleaños: 22 de noviembre
+
+CLIENTE 525
+------------------------------
+Nombre: Valentina Olarte
+Cédula: 1121955572
+Email: vale_olarte138@hotmail.com
+Fecha cumpleaños: 08 de julio
+
+CLIENTE 526
+------------------------------
+Nombre: Betsy Rocío Garcés
+Cédula: 1100954313
+Email: bhetsygarces18@hotmail.com
+Fecha cumpleaños: 18 de enero
+
+CLIENTE 527
+------------------------------
+Nombre: Paula Andrea Mora Estupiñan
+Cédula: 1121962390
+Email: paulaandreamoraestupinan@gmail.com
+Fecha cumpleaños: 30 de marzo
+
+CLIENTE 528
+------------------------------
+Nombre: Nazly Lindarte
+Cédula: 1098071425
+Email: lindartenazly4@gmail.com
+Fecha cumpleaños: 14 de septiembre
+
+CLIENTE 529
+------------------------------
+Nombre: Andrés López
+Cédula: 1143372480
+Email: andres@axloz.com
+Fecha cumpleaños: 18 de marzo
+
+CLIENTE 530
+------------------------------
+Nombre: Carolina Calle González
+Cédula: 1037652663
+Email: carorogonzalez16@gmail.com
+Fecha cumpleaños: 16 de octubre
+
+CLIENTE 531
+------------------------------
+Nombre: Susana Agudelo
+Cédula: 1000416983
+Email: susana-577@hotmail.com
+Fecha cumpleaños: 06 de septiembre
+
+CLIENTE 532
+------------------------------
+Nombre: Yudy Rodriguez Diaz
+Cédula: 1037617973
+Email: yudyrodriguezdiaz@gmail.com
+Fecha cumpleaños: 10 de febrero
+
+CLIENTE 533
+------------------------------
+Nombre: Valeria Castañeda Espinal
+Cédula: 1017247017
+Email: vale.c-espinal@hotmail.es
+Fecha cumpleaños: 15 de abril
+
+CLIENTE 534
+------------------------------
+Nombre: Mariana Barajas
+Cédula: 1098813005
+Email: marianabarajasc98@gmail.com
+Fecha cumpleaños: 28 de octubre
+
+CLIENTE 535
+------------------------------
+Nombre: Lizeth Cuartas
+Cédula: 1214714221
+Email: ljcuartas92@gmail.com
+Fecha cumpleaños: 05 de septiembre
+
+CLIENTE 536
+------------------------------
+Nombre: Sofía Rubio
+Cédula: 1097495688
+Email: sofia.gelves.rubio.14@gmail.com
+Fecha cumpleaños: 16 de febrero
+
+CLIENTE 537
+------------------------------
+Nombre: María Camila Jaramillo Correa
+Cédula: 1004798290
+Email: mcjc910528@gmail.com
+Fecha cumpleaños: 10 de septiembre
+
+CLIENTE 538
+------------------------------
+Nombre: Valentina Ortiz Montoya
+Cédula: 1040375959
+Email: valenortiz033@gmail.com
+Fecha cumpleaños: 14 de agosto
+
+CLIENTE 539
+------------------------------
+Nombre: Daniela Pasos
+Cédula: 1017243244
+Email: danipasos77@gmail.com
+Fecha cumpleaños: 10 de diciembre
+
+CLIENTE 540
+------------------------------
+Nombre: Katerine Gómez Sarmiento
+Cédula: 1079940280
+Email: kategomez97@gmail.com
+Fecha cumpleaños: 09 agosto
+
+CLIENTE 541
+------------------------------
+Nombre: Natalia Giraldo
+Cédula: 1116233566
+Email: nataliagiraldoescobar@gmail.com
+Fecha cumpleaños: 17 de junio
+
+CLIENTE 542
+------------------------------
+Nombre: María Alejandra Mahecha
+Cédula: 1000273246
+Email: malejagd22@gmail.com
+Fecha cumpleaños: 22 de noviembre
+
+CLIENTE 543
+------------------------------
+Nombre: Karen Coronado
+Cédula: 39282352
+Email: kyiseth507@gmail.com
+Fecha cumpleaños: 05 de julio
+
+CLIENTE 544
+------------------------------
+Nombre: Salomé Avendaño Londoño
+Cédula: 1017928692
+Email: salomeavendano03@gmail.com
+Fecha cumpleaños: 25 de noviembre
+
+CLIENTE 545
+------------------------------
+Nombre: Mariana Johnson
+Cédula: 1040759771
+Email: 
+Fecha cumpleaños: 02 de noviembre
+
+CLIENTE 546
+------------------------------
+Nombre: Milena Castañeda
+Cédula: 52267847
+Email: milena.castaneda1506@gmail.com
+Fecha cumpleaños: 06 de marzo
+
+CLIENTE 547
+------------------------------
+Nombre: Diana Rivera Pardo
+Cédula: 51940518
+Email: carolinbrr@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 548
+------------------------------
+Nombre: Evelyn Cardona
+Cédula: 1037636076
+Email: eve2814_@hotmail.com
+Fecha cumpleaños: 28 de junio
+
+CLIENTE 549
+------------------------------
+Nombre: Andrea González
+Cédula: 1016043517
+Email: adgonzalezg.ap@gmail.com
+Fecha cumpleaños: 04 de marzo
+
+CLIENTE 550
+------------------------------
+Nombre: Luisa Arias
+Cédula: 1088316449
+Email: luiariasca@gmail.com
+Fecha cumpleaños: 24 de enero
+
+CLIENTE 551
+------------------------------
+Nombre: Daniela Sandoval
+Cédula: 1010125272
+Email: danielajsb0@gmail.com
+Fecha cumpleaños: 14 enero
+
+CLIENTE 552
+------------------------------
+Nombre: Karen Pérez
+Cédula: 1193533628
+Email: perezarango2411@gmail.com
+Fecha cumpleaños: 24 de noviembre
+
+CLIENTE 553
+------------------------------
+Nombre: Tatiana Restrepo Serna
+Cédula: 1128475746
+Email: tatianarepo712@gmail.com
+Fecha cumpleaños: 07 de diciembre
+
+CLIENTE 554
+------------------------------
+Nombre: Sofía Beltran
+Cédula: 1032610626
+Email: ansobelmo@gmail.com
+Fecha cumpleaños: 21 de agosto
+
+CLIENTE 555
+------------------------------
+Nombre: Andrea Lopera Cortés
+Cédula: 1044505357
+Email: annloperacortes@gmail.com
+Fecha cumpleaños: 16 de febrero
+
+CLIENTE 556
+------------------------------
+Nombre: Lina María Castillo Rozo
+Cédula: 1002461934
+Email: limacasro@gmail.com
+Fecha cumpleaños: 27 de abril
+
+CLIENTE 557
+------------------------------
+Nombre: Laura Daniela Barreto Molina
+Cédula: 1000455167
+Email: danielabarretoctst17@gmail.com
+Fecha cumpleaños: 26 de noviembre
+
+CLIENTE 558
+------------------------------
+Nombre: María Fernanda Mateus Muñoz
+Cédula: 1028486251
+Email: mateusmaria360@gmail.com
+Fecha cumpleaños: 10 de enero
+
+CLIENTE 559
+------------------------------
+Nombre: Alix Chaparro
+Cédula: 1065831061
+Email: losfamilicool@gmail.com
+Fecha cumpleaños: 18 de enero
+
+CLIENTE 560
+------------------------------
+Nombre: María Camila Arroyave
+Cédula: 1152226854
+Email: mariaarroyave1118@gmail.com
+Fecha cumpleaños: noviembre 18
+
+CLIENTE 561
+------------------------------
+Nombre: Sara Williamson
+Cédula: 1037654995
+Email: saris197@hotmail.com
+Fecha cumpleaños: 21 de marzo
+
+CLIENTE 562
+------------------------------
+Nombre: María Paulina Velásquez Giraldo
+Cédula: 1020222051
+Email: mariapauv23@gmail.com
+Fecha cumpleaños: 23 de diciembre
+
+CLIENTE 563
+------------------------------
+Nombre: Yésica Paz Solarte
+Cédula: 1002859754
+Email: Jessik-j19@hotmail.com
+Fecha cumpleaños: 27 de noviembre
+
+CLIENTE 564
+------------------------------
+Nombre: Claudia Franco Echavarría
+Cédula: 1037657728
+Email: claudia.9701@hotmail.com
+Fecha cumpleaños: 01 de agosto
+
+CLIENTE 565
+------------------------------
+Nombre: Camila Cárdenas
+Cédula: 1335029903
+Email: mccardenassi@hotmail.com
+Fecha cumpleaños: 08 de mayo
+
+CLIENTE 566
+------------------------------
+Nombre: Dayanna Vasquez Velasquez
+Cédula: 1098786060
+Email: dayanavasquez.96@hotmail.com
+Fecha cumpleaños: 16 febrero
+
+CLIENTE 567
+------------------------------
+Nombre: Socorro Rojas
+Cédula: 36175909
+Email: francobuitragomaquinaria@hotmail.es
+Fecha cumpleaños: 26 de marzo
+
+CLIENTE 568
+------------------------------
+Nombre: Paula Silva Camargo
+Cédula: 1007358241
+Email: pasilvac8@gmail.com
+Fecha cumpleaños: 08 de enero
+
+CLIENTE 569
+------------------------------
+Nombre: Laura Sofía Orozco
+Cédula: 1037645035
+Email: laurasofiaorozco.5@gmail.com
+Fecha cumpleaños: 05 de octubre
+
+CLIENTE 570
+------------------------------
+Nombre: María Fernanda Navarro Mayorga
+Cédula: 1097493818
+Email: arias1007967971@gmail.com
+Fecha cumpleaños: 15 de julio
+
+CLIENTE 571
+------------------------------
+Nombre: Stefanny Ramírez
+Cédula: 1006322072
+Email: 
+Fecha cumpleaños: 14 de septiembre
+
+CLIENTE 572
+------------------------------
+Nombre: Vanessa Vega
+Cédula: 1007718341
+Email: vaneevegaa1303@gmail.com
+Fecha cumpleaños: 13 de marzo
+
+CLIENTE 573
+------------------------------
+Nombre: Juanita Polo
+Cédula: 1004699992
+Email: Juanitapolomartinez73@gmail.com
+Fecha cumpleaños: 19 de septiembre
+
+CLIENTE 574
+------------------------------
+Nombre: Manuela Galvis
+Cédula: 1119150561
+Email: manuela24122005@gmail.com
+Fecha cumpleaños: 24 de diciembre
+
+CLIENTE 575
+------------------------------
+Nombre: Luz Karime Villanueva Alba
+Cédula: 1044392713
+Email: sbelf2205@hotmail.com
+Fecha cumpleaños: 
+
+CLIENTE 576
+------------------------------
+Nombre: Daniela Espinosa
+Cédula: 1054999697
+Email: ladannni1717@gmail.com
+Fecha cumpleaños: 17 de febrero
+
+CLIENTE 577
+------------------------------
+Nombre: Isabel Cristina Serna Murillo
+Cédula: 1116449077
+Email: isabel.cs317@gmail.com
+Fecha cumpleaños: 17 de marzo
+
+CLIENTE 578
+------------------------------
+Nombre: Xiomara Correa Bañol
+Cédula: 1002854943
+Email: xcorrea606@gmail.com
+Fecha cumpleaños: 26 de septiembre
+
+CLIENTE 579
+------------------------------
+Nombre: Jéssica Vanessa Riaño Rodríguez
+Cédula: 1116871126
+Email: jessicariano33@gmail.com
+Fecha cumpleaños: 07 de noviembre
+
+CLIENTE 580
+------------------------------
+Nombre: Paola Vanegas
+Cédula: 1127601704
+Email: paolavanegasba@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 581
+------------------------------
+Nombre: Juan Álvarez
+Cédula: 1003814249
+Email: jda.21@yandex.com
+Fecha cumpleaños: N/A
+
+CLIENTE 582
+------------------------------
+Nombre: Jhenniffer Valenzuela
+Cédula: 1079508915
+Email: jhenifervalenzuelacardozo@gmail.com
+Fecha cumpleaños: 29 de julio
+
+CLIENTE 583
+------------------------------
+Nombre: Paula Juliana Parra Ardila
+Cédula: 1007427978
+Email: pajulispa@gmail.com
+Fecha cumpleaños: 23 de enero
+
+CLIENTE 584
+------------------------------
+Nombre: Lina Tatiana Escobar Vernaza
+Cédula: 1151946608
+Email: litaesve1108@gmail.com
+Fecha cumpleaños: 11 de agosto
+
+CLIENTE 585
+------------------------------
+Nombre: Daniela Martínez
+Cédula: 52969440
+Email: 
+Fecha cumpleaños: 27 de julio
+
+CLIENTE 586
+------------------------------
+Nombre: Luis Felipe Giraldo Mora
+Cédula: 1036663231
+Email: coyote97t@hotmail.com
+Fecha cumpleaños: 5/10
+
+CLIENTE 587
+------------------------------
+Nombre: María José Arboleda Vásquez
+Cédula: 1020311382
+Email: mariajosearboleda1@gmail.com
+Fecha cumpleaños: 3 de enero
+
+CLIENTE 588
+------------------------------
+Nombre: Andrea Naranjo Ramírez
+Cédula: 1152435878
+Email: andre_0569@hotmail.com
+Fecha cumpleaños: 
+
+CLIENTE 589
+------------------------------
+Nombre: Daniela Perez
+Cédula: 1152462374
+Email: daniela.perez9735@gmail.com
+Fecha cumpleaños: 3 de abril
+
+CLIENTE 590
+------------------------------
+Nombre: Alejandra Villarraga
+Cédula: 1030543452
+Email: aleja.villarraga@gmail.com
+Fecha cumpleaños: 21 de diciembre
+
+CLIENTE 591
+------------------------------
+Nombre: María Camila Ríos
+Cédula: 1027740646
+Email: camilar3036@gmail.com
+Fecha cumpleaños: 30 de marzo
+
+CLIENTE 592
+------------------------------
+Nombre: María Alejandra Bertel Pimienta
+Cédula: 1006571922
+Email: bertelmaria8@gmail.com
+Fecha cumpleaños: 16 de febrero
+
+CLIENTE 593
+------------------------------
+Nombre: Sofía Idárraga
+Cédula: 1039470788
+Email: sofia.idarraga@outlook.com
+Fecha cumpleaños: 12 de octubre
+
+CLIENTE 594
+------------------------------
+Nombre: Maria Daniela Muñoz Carvajal
+Cédula: 1152219518
+Email: daniela97munoz@hotmail.com
+Fecha cumpleaños: 16 de diciembre
+
+CLIENTE 595
+------------------------------
+Nombre: Jennifer Correa Giraldo
+Cédula: 1020408148
+Email: jennifercorrea443@gmail.com
+Fecha cumpleaños: 14-08
+
+CLIENTE 596
+------------------------------
+Nombre: Manuela Ospina vanegas
+Cédula: 1037659024
+Email: manuospi97@gmail.com
+Fecha cumpleaños: 01/11
+
+CLIENTE 597
+------------------------------
+Nombre: Valeria Franco T
+Cédula: 1037667219
+Email: 
+Fecha cumpleaños: 
+
+CLIENTE 598
+------------------------------
+Nombre: Silvia Juliana Hernández Ardila
+Cédula: 1005333132
+Email: juliana_1914@hotmail.com
+Fecha cumpleaños: 14 de septiembre
+
+CLIENTE 599
+------------------------------
+Nombre: Melissa Correa Salazar
+Cédula: 1000898119
+Email: meli26correasalazar@gmail.com
+Fecha cumpleaños: 26 de diciembre
+
+CLIENTE 600
+------------------------------
+Nombre: Érika Arango Herrera
+Cédula: 1037622961
+Email: arangoerika8@gmail.com
+Fecha cumpleaños: 09 de octubre
+
+CLIENTE 601
+------------------------------
+Nombre: Natalia Castro
+Cédula: 1026158882
+Email: nataliacava16@gmail.com
+Fecha cumpleaños: 16 de diciembre
+
+CLIENTE 602
+------------------------------
+Nombre: Danny Echeverri
+Cédula: 1017268454
+Email: danny_echeverri6b@hotmail.com
+Fecha cumpleaños: 04 de marzo
+
+CLIENTE 603
+------------------------------
+Nombre: Dayana Vélez
+Cédula: 1001359404-9
+Email: dayanavelez06@gmail.com
+Fecha cumpleaños: 19 de febrero
+
+CLIENTE 604
+------------------------------
+Nombre: Liney Melissa Correa Castaneda
+Cédula: 1000568688
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 605
+------------------------------
+Nombre: Sara Manuela Correa Viana
+Cédula: 1128459443
+Email: saramanuela83@gmail.com
+Fecha cumpleaños: 09 de julio
+
+CLIENTE 606
+------------------------------
+Nombre: Daniela Andrea Diaz Marín
+Cédula: 1017218377
+Email: danidiaz_852@hotmail.com
+Fecha cumpleaños: 03 de abril
+
+CLIENTE 607
+------------------------------
+Nombre: Andrea Rúa Arango
+Cédula: 1152456247
+Email: andrerua18@gmail.com
+Fecha cumpleaños: 15 de noviembre
+
+CLIENTE 608
+------------------------------
+Nombre: Nazly Fernandez
+Cédula: 1007417750
+Email: nazly.fernandezs@gmail.com
+Fecha cumpleaños: 04 de enero
+
+CLIENTE 609
+------------------------------
+Nombre: María Antonia Arango Villa
+Cédula: 1027661753
+Email: antoniarangov1805@gmail.com
+Fecha cumpleaños: 18 de mayo
+
+CLIENTE 610
+------------------------------
+Nombre: Milena Mira Cañas
+Cédula: 1037631353
+Email: milena.mira.c@gmail.com
+Fecha cumpleaños: 28 Noviembre
+
+CLIENTE 611
+------------------------------
+Nombre: Yurladi Giraldo
+Cédula: 1037592180
+Email: giraldoyurladi@gmail.com
+Fecha cumpleaños: 04 de noviembre
+
+CLIENTE 612
+------------------------------
+Nombre: Betty Nancy Soto Castrillón
+Cédula: 43495035
+Email: 
+Fecha cumpleaños: 19 de abril
+
+CLIENTE 613
+------------------------------
+Nombre: Daniela Aristizabal Salazar
+Cédula: 1216713060
+Email: aristidani01@gmail.com
+Fecha cumpleaños: 1 de julio
+
+CLIENTE 614
+------------------------------
+Nombre: Vanessa Garcia Cardona
+Cédula: 1000764845
+Email: vg2704195@gmail.com
+Fecha cumpleaños: 13/10
+
+CLIENTE 615
+------------------------------
+Nombre: María José Montenegro Montoya
+Cédula: 1127236575
+Email: majomontenegro5@outlook.com
+Fecha cumpleaños: 07 de marzo
+
+CLIENTE 616
+------------------------------
+Nombre: Diana Estrada
+Cédula: 1006662827
+Email: dianaestrada960@gmail.com
+Fecha cumpleaños: 17/09
+
+CLIENTE 617
+------------------------------
+Nombre: Maria Figueroa Coronado
+Cédula: 1001870551
+Email: maria.figueroa3@unisimon.edu.co
+Fecha cumpleaños: 21/02/
+
+CLIENTE 618
+------------------------------
+Nombre: Carolina Graciano Saldarriaga
+Cédula: 1037669320
+Email: carolinagracianos@gmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 619
+------------------------------
+Nombre: Lizeth Vanessa Urrego Zárate
+Cédula: 1054541519
+Email: vaneurregugc@gmail.com
+Fecha cumpleaños: 02 de diciembre
+
+CLIENTE 620
+------------------------------
+Nombre: Salomé Quintero
+Cédula: 1033488082
+Email: salooq1028@gmail.com
+Fecha cumpleaños: 28 de octubre
+
+CLIENTE 621
+------------------------------
+Nombre: Daniela Vélez Rueda
+Cédula: 1048021547
+Email: velezd431@gmail.com
+Fecha cumpleaños: 14 de noviembre
+
+CLIENTE 622
+------------------------------
+Nombre: Verónica Mira
+Cédula: 1152222206
+Email: veronicara98@gmail.com
+Fecha cumpleaños: 11 de agosto
+
+CLIENTE 623
+------------------------------
+Nombre: Erika Quiceno
+Cédula: 43827208
+Email: erikayanetquiceno@gmail.com
+Fecha cumpleaños: ENERO 03
+
+CLIENTE 624
+------------------------------
+Nombre: Alejandra Gómez
+Cédula: 1000588807
+Email: alejandragomezruiz9@gmail.com
+Fecha cumpleaños: 31 de mayo
+
+CLIENTE 625
+------------------------------
+Nombre: Jackeline Fajardo
+Cédula: 1143970788
+Email: wwjaque95@gmail.com
+Fecha cumpleaños: 06 de febrero
+
+CLIENTE 626
+------------------------------
+Nombre: Nicol Irina Cruz
+Cédula: 1018505463
+Email: nicolherrera@sanchobbdo.com
+Fecha cumpleaños: 03 de septiembre
+
+CLIENTE 627
+------------------------------
+Nombre: Natalia Mora Gaitán
+Cédula: 1152464849
+Email: nmgaitan22@gmail.com
+Fecha cumpleaños: 22 de diciembre
+
+CLIENTE 628
+------------------------------
+Nombre: Oscar Ignacio Chaverra Cano
+Cédula: 70134834
+Email: facturacioncocopinkstore@gmail.com
+Fecha cumpleaños: 02 de enero
+
+CLIENTE 629
+------------------------------
+Nombre: María Camila Berdugo Restrepo
+Cédula: 1037638160
+Email: camilaberdugo@gmail.com
+Fecha cumpleaños: 01 de noviembre
+
+CLIENTE 630
+------------------------------
+Nombre: Mirtha Yulieth Canchila Varela
+Cédula: 1096238221
+Email: mirtha.j@hotmail.com
+Fecha cumpleaños: 18 de mayo
+
+CLIENTE 631
+------------------------------
+Nombre: Fernanda Grajales Figueroa
+Cédula: 1006008554
+Email: Makai.fg3@gmail.com
+Fecha cumpleaños: 29 de marzo
+
+CLIENTE 632
+------------------------------
+Nombre: Fernanda Grajales Figueroa
+Cédula: 1006008554
+Email: Makai.fg3@gmail.com
+Fecha cumpleaños: 29 de marzo
+
+CLIENTE 633
+------------------------------
+Nombre: Diana Naranjo Franco
+Cédula: 1116071808
+Email: diana-franco2006@outlook.com
+Fecha cumpleaños: 29 de junio
+
+CLIENTE 634
+------------------------------
+Nombre: Daniela Salas
+Cédula: 1044614219
+Email: danieelasalas99@gmail.com
+Fecha cumpleaños: 19/04
+
+CLIENTE 635
+------------------------------
+Nombre: Alexa Stephanie Pineda Rodríguez
+Cédula: 1094911658
+Email: cactusmakeup6@gmail.com
+Fecha cumpleaños: 30 de marzo
+
+CLIENTE 636
+------------------------------
+Nombre: Hilary Alzate
+Cédula: 1070585396
+Email: hilarysdanerys@gmail.com
+Fecha cumpleaños: 19/05
+
+CLIENTE 637
+------------------------------
+Nombre: Daniela Palacios Medina
+Cédula: 1003930974
+Email: dpm2199@gmail.com
+Fecha cumpleaños: 10 de noviembre
+
+CLIENTE 638
+------------------------------
+Nombre: Danny Steffany Amaya Solano
+Cédula: 
+Email: primortiendamultimarca@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 639
+------------------------------
+Nombre: Maria Jose Mahecha
+Cédula: 1104544355
+Email: mariajosemahecha72@gmail.com
+Fecha cumpleaños: 16 abril
+
+CLIENTE 640
+------------------------------
+Nombre: Julieth Muñoz Martínez
+Cédula: 1098796992
+Email: leidy2897@gmail.com
+Fecha cumpleaños: 28/04
+
+CLIENTE 641
+------------------------------
+Nombre: Luna Areiza Ocampo
+Cédula: 1038868103
+Email: lunaareiza.art@gmail.com
+Fecha cumpleaños: 17 de abril
+
+CLIENTE 642
+------------------------------
+Nombre: Diana Ibarra
+Cédula: 1130678636
+Email: dianita_287@hotmail.com
+Fecha cumpleaños: 18 de diciembre
+
+CLIENTE 643
+------------------------------
+Nombre: Elizabeth Uribe Hernandez
+Cédula: 43222100
+Email: eliu1712@gmail.com
+Fecha cumpleaños: 17 de diciembre
+
+CLIENTE 644
+------------------------------
+Nombre: Maria Andrea Quiceno
+Cédula: 1152472269
+Email: maria.andreaquiceno@gmail.com
+Fecha cumpleaños: 10 de diciembre
+
+CLIENTE 645
+------------------------------
+Nombre: Lucy Carolina Fernández Quintero
+Cédula: 1000834026
+Email: lucarolina46@gmail.com
+Fecha cumpleaños: 18 de marzo
+
+CLIENTE 646
+------------------------------
+Nombre: Angie Taticuan
+Cédula: 1085947542
+Email: angiemilenads@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 647
+------------------------------
+Nombre: Ligia Fernanda Rojas Sarmiento
+Cédula: 1076667404
+Email: ligiarojassar@gmail.com
+Fecha cumpleaños: 26 de febrero
+
+CLIENTE 648
+------------------------------
+Nombre: Andrea Carolina Combatt Escudero
+Cédula: 1140846222
+Email: andreacombatt@hotmail.com
+Fecha cumpleaños: 17 de septiembre
+
+CLIENTE 649
+------------------------------
+Nombre: Ana Rincón
+Cédula: 7862759
+Email: ana_riga@hotmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 650
+------------------------------
+Nombre: Yesenia Mora Acosta
+Cédula: 1143846197
+Email: yeseniamora17@hotmail.com
+Fecha cumpleaños: 6-enero
+
+CLIENTE 651
+------------------------------
+Nombre: Paola Gomez
+Cédula: 1030620240
+Email: dpgo030617@gmail.com
+Fecha cumpleaños: 24 de enero
+
+CLIENTE 652
+------------------------------
+Nombre: Laura Beltrán
+Cédula: 1000324509
+Email: lvbeltrans15@gmail.com
+Fecha cumpleaños: 22 de noviembre
+
+CLIENTE 653
+------------------------------
+Nombre: Érika Yuliana Henao Cardona
+Cédula: 1037369069
+Email: erikayulianacardona705@gmail.com
+Fecha cumpleaños: 01 de octubre
+
+CLIENTE 654
+------------------------------
+Nombre: SARA RESTREPO MESA
+Cédula: 1017233342
+Email: saritarpomesa@gmail.com
+Fecha cumpleaños: julio
+
+CLIENTE 655
+------------------------------
+Nombre: Lina Paola Carrero
+Cédula: 1098783453
+Email: lina.carrero.f@gmail.com
+Fecha cumpleaños: 04 de abril
+
+CLIENTE 656
+------------------------------
+Nombre: Daniela Tamayo
+Cédula: 1001326014
+Email: camitamayo02@hotmail.com
+Fecha cumpleaños: 02 de marzo
+
+CLIENTE 657
+------------------------------
+Nombre: Camila Garzon
+Cédula: 1007812190
+Email: camila.garzonpuerta@gmail.com
+Fecha cumpleaños: 1 de septiembre
+
+CLIENTE 658
+------------------------------
+Nombre: Clara Gómez
+Cédula: 1094953784
+Email: claragomezhenck1995@gmail.com
+Fecha cumpleaños: 18 de diciembre
+
+CLIENTE 659
+------------------------------
+Nombre: Tatiana Andrea Serna
+Cédula: 1000556771
+Email: tatisjaja@hotmail.com
+Fecha cumpleaños: 29 de junio
+
+CLIENTE 660
+------------------------------
+Nombre: Lina Alegría
+Cédula: 1004417195
+Email: lina2022.ale@gmail.com
+Fecha cumpleaños: 21 de agosto
+
+CLIENTE 661
+------------------------------
+Nombre: Sharol Yuliana Guerrero Jurado
+Cédula: 1000809318
+Email: sharolyuliana3@gmail.com
+Fecha cumpleaños: 19 de mayo
+
+CLIENTE 662
+------------------------------
+Nombre: Diany Marcela Booder Valencia
+Cédula: 1077456461
+Email: marcebooder@hotmail.com
+Fecha cumpleaños: 15 de diciembre
+
+CLIENTE 663
+------------------------------
+Nombre: Paula Andrea Galvis Muñoz
+Cédula: 1017213334
+Email: Paulagalvismunoz@hotmail.com
+Fecha cumpleaños: 30 de septiembre
+
+CLIENTE 664
+------------------------------
+Nombre: Valentina Loaiza
+Cédula: 1000761710
+Email: valentina.loaiza1204@gmail.com
+Fecha cumpleaños: 30 de marzo
+
+CLIENTE 665
+------------------------------
+Nombre: Juliana Salazar Castro
+Cédula: 1214737721
+Email: julisalazca7@hotmail.com
+Fecha cumpleaños: 07 de febrero
+
+CLIENTE 666
+------------------------------
+Nombre: Estefanía Cardona Duque
+Cédula: 1001447259
+Email: estefacrd@gmail.com
+Fecha cumpleaños: 07 de julio
+
+CLIENTE 667
+------------------------------
+Nombre: Luisa Cardona
+Cédula: 1038416285
+Email: luisa.cflorez023@gmail.com
+Fecha cumpleaños: 23 de octubre
+
+CLIENTE 668
+------------------------------
+Nombre: Lina Tatiana Escobar Vernaza
+Cédula: 1151946608
+Email: litaesve1108@gmail.com
+Fecha cumpleaños: 11 de agosto
+
+CLIENTE 669
+------------------------------
+Nombre: Patricia Matiz
+Cédula: 42681517
+Email: patomatiz@hotmail.com
+Fecha cumpleaños: 25 de octubre
+
+CLIENTE 670
+------------------------------
+Nombre: Eliyani Legarda
+Cédula: 1001848721
+Email: legardaeliyani@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 671
+------------------------------
+Nombre: Valeria Castaño
+Cédula: 1039472283
+Email: valeriacastano73@gmail.com
+Fecha cumpleaños: 3 de julio
+
+CLIENTE 672
+------------------------------
+Nombre: Manuela Arenas
+Cédula: 1035417075
+Email: manu.arenas225@gmail.com
+Fecha cumpleaños: 25 de mayo
+
+CLIENTE 673
+------------------------------
+Nombre: Santiago Estrada
+Cédula: 1017240685
+Email: estradases25@gmail.com
+Fecha cumpleaños: 10 de noviembre
+
+CLIENTE 674
+------------------------------
+Nombre: Daniela Jiménez Holguín
+Cédula: 1017224208
+Email: daniijiijh@gmail.com
+Fecha cumpleaños: 06 de octubre
+
+CLIENTE 675
+------------------------------
+Nombre: Sol Rodríguez Baena
+Cédula: 1022033742
+Email: solrodriguezbaena@gmsil.com
+Fecha cumpleaños: 29 de octubre
+
+CLIENTE 676
+------------------------------
+Nombre: Mónica Gómez Valderrama
+Cédula: 1036648763
+Email: monii_0610@hotmail.com
+Fecha cumpleaños: 06 de octubre
+
+CLIENTE 677
+------------------------------
+Nombre: Mariana Medina
+Cédula: 1018231818
+Email: marianamedinaocampo@gmail.com
+Fecha cumpleaños: 07 de enero
+
+CLIENTE 678
+------------------------------
+Nombre: Paola Torres
+Cédula: 1114390613
+Email: paolatorres28@outlook.es
+Fecha cumpleaños: 04 de julio
+
+CLIENTE 679
+------------------------------
+Nombre: Diana Giraldo
+Cédula: 43914694
+Email: dianatoro08@gmail.com
+Fecha cumpleaños: 01 de abril
+
+CLIENTE 680
+------------------------------
+Nombre: María Camila Castro Tamayo
+Cédula: 1000087821
+Email: mcamilacastro11@outlook.com
+Fecha cumpleaños: 03 de junio
+
+CLIENTE 681
+------------------------------
+Nombre: Lizeth Vanessa Urrego Zárate
+Cédula: 1054541519
+Email: vaneurregugc@gmail.com
+Fecha cumpleaños: 02 de diciembre
+
+CLIENTE 682
+------------------------------
+Nombre: Yeniffer Medina
+Cédula: 1007615446
+Email: yeninedinatobon.17@gmail.com
+Fecha cumpleaños: 11 de abril
+
+CLIENTE 683
+------------------------------
+Nombre: Angie Mesa
+Cédula: 1152460986
+Email: 
+Fecha cumpleaños: 27 de octubre
+
+CLIENTE 684
+------------------------------
+Nombre: Karin Acevedo
+Cédula: 27633887
+Email: uribean062005@gmail.com
+Fecha cumpleaños: 07 de abril
+
+CLIENTE 685
+------------------------------
+Nombre: Mónica Múnera
+Cédula: 1039459989
+Email: Mymuneras@gmail.com
+Fecha cumpleaños: 15 Mayo
+
+CLIENTE 686
+------------------------------
+Nombre: Paula Valentina García Castillo
+Cédula: 1001091010
+Email: Paula.grcia786@gmail.com
+Fecha cumpleaños: 11 de abril
+
+CLIENTE 687
+------------------------------
+Nombre: Vannesa Alejandra Montero Vargas
+Cédula: 1000593134
+Email: vannesamontero2327@gmail.com
+Fecha cumpleaños: 23 de enero
+
+CLIENTE 688
+------------------------------
+Nombre: Xiomara Correa Bañol
+Cédula: 1002854943
+Email: xcorrea606@gmail.com
+Fecha cumpleaños: 26 de septiembre
+
+CLIENTE 689
+------------------------------
+Nombre: Yesenia García
+Cédula: 1017195776
+Email: yesegarcia.personal@gmail.com
+Fecha cumpleaños: 19 de agosto
+
+CLIENTE 690
+------------------------------
+Nombre: María Fernanda Sierra Gallego
+Cédula: 1152711279
+Email: dutiendacol@gmail.com
+Fecha cumpleaños: 02 de julio
+
+CLIENTE 691
+------------------------------
+Nombre: Laura Restrepo
+Cédula: 1152457121
+Email: laurarestrepog18@gmail.com
+Fecha cumpleaños: 18 de enero
+
+CLIENTE 692
+------------------------------
+Nombre: Camila Ramírez
+Cédula: 1007286246
+Email: cami0404@hotmail.com
+Fecha cumpleaños: 04 de abril
+
+CLIENTE 693
+------------------------------
+Nombre: Anamaría Aguilar López
+Cédula: 1037655863
+Email: aaguilar.lopez97@gmail.com
+Fecha cumpleaños: 02 de mayo
+
+CLIENTE 694
+------------------------------
+Nombre: Alejandra Suárez
+Cédula: 1000532229
+Email: alejasuarez54561@gmail.com
+Fecha cumpleaños: 25 de julio
+
+CLIENTE 695
+------------------------------
+Nombre: Silvia Juliana Hernández Ardila
+Cédula: 1005333132
+Email: juliana_1914@hotmail.com
+Fecha cumpleaños: 14 de septiembre
+
+CLIENTE 696
+------------------------------
+Nombre: Laura Quintero
+Cédula: 1002971367
+Email: laura.quintero.334@gmail.com
+Fecha cumpleaños: 23 de mayo
+
+CLIENTE 697
+------------------------------
+Nombre: Yuli Garcia
+Cédula: 66993751
+Email: yulig66@gmail.com
+Fecha cumpleaños: Agosto
+
+CLIENTE 698
+------------------------------
+Nombre: Alexa Stephanie Pineda Rodríguez
+Cédula: 1094911658
+Email: cactusmakeup6@gmail.com
+Fecha cumpleaños: 30 de marzo
+
+CLIENTE 699
+------------------------------
+Nombre: Marcela Gómez Bedoya
+Cédula: 1037577769
+Email: marcegb8717@hotmail.com
+Fecha cumpleaños: Enero 17
+
+CLIENTE 700
+------------------------------
+Nombre: Yasmín Carvajal López
+Cédula: 1023702119
+Email: yazdelarosa7@gmail.com
+Fecha cumpleaños: 02 de diciembre
+
+CLIENTE 701
+------------------------------
+Nombre: Carolina Guarin Duque
+Cédula: 1001725784
+Email: ccarolinagd1901@gmail.com
+Fecha cumpleaños: 19/09
+
+CLIENTE 702
+------------------------------
+Nombre: Daniela Pasos
+Cédula: 1017243244
+Email: danipasos77@gmail.com
+Fecha cumpleaños: 10 de diciembre
+
+CLIENTE 703
+------------------------------
+Nombre: Luisa Escudero
+Cédula: 1000636400
+Email: luisaescuderoar@gmail.com
+Fecha cumpleaños: 18 de septiembre
+
+CLIENTE 704
+------------------------------
+Nombre: Laura Mancera Trejos
+Cédula: 1035916126
+Email: lauramancera9@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 705
+------------------------------
+Nombre: Leydy Julieth Carmona Valencia
+Cédula: 1026160677
+Email: leydyjuliethc@gmail.com
+Fecha cumpleaños: 11 de noviembre
+
+CLIENTE 706
+------------------------------
+Nombre: Mariana Ángel
+Cédula: 1152470247
+Email: marianangel654@gmail.com
+Fecha cumpleaños: 25 de febrero
+
+CLIENTE 707
+------------------------------
+Nombre: Juan Diego Acuña
+Cédula: 1020222381
+Email: jdagii2004@gmail.com
+Fecha cumpleaños: 03 de mayo
+
+CLIENTE 708
+------------------------------
+Nombre: Natalia Correa
+Cédula: 1152202380
+Email: nataliacorreabuiles@gmail.com
+Fecha cumpleaños: 04 de octubre
+
+CLIENTE 709
+------------------------------
+Nombre: Laura Restrepo Palacio
+Cédula: 1036683614
+Email: laurarestrepo161@gmail.com
+Fecha cumpleaños: 02 de febrero
+
+CLIENTE 710
+------------------------------
+Nombre: Sindy Katerine López Sanabria
+Cédula: 1004064089
+Email: lopezsanabriasindy@gmail.com
+Fecha cumpleaños: 30 de octubre
+
+CLIENTE 711
+------------------------------
+Nombre: Valentina Pineda
+Cédula: 1017272506
+Email: valenpinedarpo@gmail.com
+Fecha cumpleaños: 28 de julio
+
+CLIENTE 712
+------------------------------
+Nombre: Fernanda Grajales Figueroa
+Cédula: 1006008554
+Email: Makai.fg3@gmail.com
+Fecha cumpleaños: 29 de marzo
+
+CLIENTE 713
+------------------------------
+Nombre: Steven Betancur
+Cédula: 1007376325
+Email: 
+Fecha cumpleaños: N/A
+
+CLIENTE 714
+------------------------------
+Nombre: Yhon Daverson Arboleda Restrepo
+Cédula: 1036642146
+Email: yhonar26@gmail.com
+Fecha cumpleaños: 26 de septiembre
+
+CLIENTE 715
+------------------------------
+Nombre: Ana Jaramillo
+Cédula: 1125579040
+Email: anajllo116@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 716
+------------------------------
+Nombre: Melissa Reinoso
+Cédula: 1036670324
+Email: melissareinosoc@gmail.com
+Fecha cumpleaños: 15 de diciembre
+
+CLIENTE 717
+------------------------------
+Nombre: Valentina Sayago
+Cédula: 1090531348
+Email: valentinasm14@gmail.com
+Fecha cumpleaños: 14 de septiembre
+
+CLIENTE 718
+------------------------------
+Nombre: Beatriz Acosta
+Cédula: 
+Email: beatazapata1956@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 719
+------------------------------
+Nombre: Maria Isabel Mesa Parra
+Cédula: 1044509035
+Email: isaparra72@gmail.com
+Fecha cumpleaños: 20 de diciembre
+
+CLIENTE 720
+------------------------------
+Nombre: Natalia Mosquera S
+Cédula: 
+Email: 1494nathy@gmail.com
+Fecha cumpleaños: 
+
+CLIENTE 721
+------------------------------
+Nombre: Sofía Muñetón Pérez
+Cédula: 
+Email: 
+Fecha cumpleaños: 
+
+CLIENTE 722
+------------------------------
+Nombre: Karla Jaramillo Gil
+Cédula: 1128275421
+Email: kalita_82@hotmail.com
+Fecha cumpleaños: 28 de octubre
+
+CLIENTE 723
+------------------------------
+Nombre: Luisa Acosta Velásquez
+Cédula: 1088339294
+Email: luisa.acosta@utp.edu.co
+Fecha cumpleaños: 
+
+CLIENTE 724
+------------------------------
+Nombre: Carolina Medina
+Cédula: 1054926014
+Email: colitasnoviembre2021@hotmail.com
+Fecha cumpleaños: 9 de octubre
+
+CLIENTE 725
+------------------------------
+Nombre: Dahiana Rendón
+Cédula: 42163030
+Email: esteticaavanzada22@gmail.com
+Fecha cumpleaños: 03 de mayo
+
+CLIENTE 726
+------------------------------
+Nombre: Angie Manuela Villada Bedoya
+Cédula: 1000409347
+Email: angievilladabedoya@gmail.com
+Fecha cumpleaños: 4 de agosto
+
+CLIENTE 727
+------------------------------
+Nombre: Daniela Betancur Avendaño
+Cédula: 1152471310
+Email: danielabtancur18@gmail.com
+Fecha cumpleaños: 18 de septiembre
+
+CLIENTE 728
+------------------------------
+Nombre: Adriana Jaramillo
+Cédula: 42772577
+Email: adrianamjaramillor@gmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 729
+------------------------------
+Nombre: Ana Sofía Paniagua
+Cédula: 1021924864
+Email: anasofiap1219@gmail.com
+Fecha cumpleaños: 19 de diciembre
+
+CLIENTE 730
+------------------------------
+Nombre: Carolina Graciano Saldarriaga
+Cédula: 1037669320
+Email: carolinagracianos@gmail.com
+Fecha cumpleaños: 22 de junio
+
+CLIENTE 731
+------------------------------
+Nombre: Jéssica Vanessa Riaño Rodríguez
+Cédula: 1116871126
+Email: jessicariano33@gmail.com
+Fecha cumpleaños: 07 de noviembre
+
+CLIENTE 732
+------------------------------
+Nombre: Beatriz Elena Taborda Bedoya
+Cédula: 35695537
+Email: beatriztabordabedoya123@hotmail.com
+Fecha cumpleaños: 01 de mayo
+
+CLIENTE 733
+------------------------------
+Nombre: Nelly Rocio Moreno Ramírez
+Cédula: 1073609956
+Email: morenonellyr@gmail.com
+Fecha cumpleaños: 11 de Julio
+
+CLIENTE 734
+------------------------------
+Nombre: Alejandra Dosman
+Cédula: 1112482937
+Email: aleja815905@gmail.com
+Fecha cumpleaños: 19 de octubre
+
+CLIENTE 735
+------------------------------
+Nombre: Elizabeth Barriga
+Cédula: 1006032478
+Email: barrigaelizabeth967@gmail.com
+Fecha cumpleaños: 31 de enero
+
+CLIENTE 736
+------------------------------
+Nombre: Juliana Echavarría Castaño
+Cédula: 1035435386
+Email: juliana.ec14@gmail.com
+Fecha cumpleaños: 14 de marzo
+
+CLIENTE 737
+------------------------------
+Nombre: Sara Palacio
+Cédula: 1001366410
+Email: saris888@hotmail.com
+Fecha cumpleaños: N/A
+
+CLIENTE 738
+------------------------------
+Nombre: Mariana Gonzalez
+Cédula: 1000872232
+Email: marigonzaga2012@gmail.com
+Fecha cumpleaños: 20/12
+
+CLIENTE 739
+------------------------------
+Nombre: Alejandra franco
+Cédula: 1036957006
+Email: malejandraf26@hotmail.com
+Fecha cumpleaños: 26/06
+
+CLIENTE 740
+------------------------------
+Nombre: Joelis Torres Casiano
+Cédula: 1047337202
+Email: joelistorres0618@gmail.com
+Fecha cumpleaños: 18 de mayo
+

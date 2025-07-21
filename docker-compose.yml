@@ -26,6 +26,8 @@ services:
       - ./logs:/app/logs
     networks:
       - walaky-network
+    env_file:
+      - .env
 
 networks:
   walaky-network:

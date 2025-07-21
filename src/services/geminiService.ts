@@ -135,7 +135,8 @@ export class GeminiService {
       fecha: data.fecha,
       cliente: data.cliente,
       telefono: data.telefono,
-      email: data.email
+      email: data.email,
+      fechaCumpleanos: data.fechaCumpleanos || ''
     };
   }
 
@@ -154,6 +155,33 @@ export class GeminiService {
     
     const fechaMatch = message.match(/(\d{1,2}\s+de\s+\w+)/i);
     const fecha = fechaMatch ? fechaMatch[1] : new Date().toLocaleDateString('es-ES');
+    
+    // Extraer fecha de cumpleaños
+    let fechaCumpleanos = '';
+    const cumpleanosPatterns = [
+      /FC\s+(\d{1,2})\s+de\s+(\w+)/i,
+      /cumpleaños:?\s*(\d{1,2})\s+de\s+(\w+)/i,
+      /nació\s+el\s+(\d{1,2})\s+de\s+(\w+)/i,
+      /(\d{1,2})\s+de\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)/i
+    ];
+
+    const meses: { [key: string]: number } = {
+      'enero': 1, 'febrero': 2, 'marzo': 3, 'abril': 4, 'mayo': 5, 'junio': 6,
+      'julio': 7, 'agosto': 8, 'septiembre': 9, 'octubre': 10, 'noviembre': 11, 'diciembre': 12
+    };
+
+    for (const pattern of cumpleanosPatterns) {
+      const match = message.match(pattern);
+      if (match) {
+        const dia = match[1];
+        const mesNombre = match[2].toLowerCase();
+        const mesNumero = meses[mesNombre];
+        if (mesNumero) {
+          fechaCumpleanos = `${dia}/${mesNumero}`;
+          break;
+        }
+      }
+    }
     
     // Buscar productos con mejor lógica
     const productosEncontrados: ProductInfo[] = [];
@@ -212,7 +240,8 @@ export class GeminiService {
       fecha: fecha,
       cliente: cliente,
       telefono: telefono,
-      email: email
+      email: email,
+      fechaCumpleanos: fechaCumpleanos
     };
   }
 
@@ -242,7 +271,8 @@ Extrae la siguiente información y devuélvela ÚNICAMENTE en formato JSON váli
   "fecha": "fecha en formato DD/MM/YYYY",
   "cliente": "nombre completo del cliente",
   "telefono": "número de teléfono",
-  "email": "correo electrónico"
+  "email": "correo electrónico",
+  "fechaCumpleanos": "fecha de cumpleaños en formato D/M"
 }
 
 INSTRUCCIONES IMPORTANTES:
@@ -252,6 +282,16 @@ INSTRUCCIONES IMPORTANTES:
 4. Si mencionan "Shampoo 500ml", busca exactamente ese producto en la lista
 5. Si mencionan "Kit 002", busca exactamente ese producto en la lista
 6. Solo incluye productos que realmente aparezcan en la lista disponible
+7. Para la fecha de cumpleaños:
+   - Busca líneas como "FC 1 de julio", "Cumpleaños: 15 de marzo", "Nació el 23 de diciembre", etc.
+   - Convierte a formato D/M: "1 de julio" → "1/7", "15 de marzo" → "15/3", "23 de diciembre" → "23/12"
+   - Si no encuentras fecha de cumpleaños, usa cadena vacía ""
+
+Ejemplos de conversión de fechas:
+- "FC 1 de julio" → "1/7"
+- "Cumpleaños: 25 de diciembre" → "25/12"
+- "Nació el 3 de febrero" → "3/2"
+- "15 de abril" → "15/4"
 
 Responde ÚNICAMENTE con el JSON, sin texto adicional.
 `;
