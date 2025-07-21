@@ -9,6 +9,7 @@ const requiredEnvVars = [
   'GEMINI_API_KEY',
   'PRODUCTS_SHEET_ID',
   'DESTINATION_SHEET_ID',
+  'CLIENTS_SHEET_ID',
 ];
 
 console.log('🔍 Verificando configuración...');
