@@ -90,7 +90,8 @@ export class BotService {
         await this.bot.sendMessage(chatId, 
           '📋 Comandos disponibles:\n' +
           '/start - Mensaje de bienvenida\n' +
-          '/help - Esta ayuda\n\n' +
+          '/help - Esta ayuda\n' +
+          '/status - Estado de conexiones\n\n' +
           'Para crear una factura, simplemente envía los datos del cliente y productos.'
         );
         break;
@@ -150,15 +151,15 @@ export class BotService {
         email: extractedData.email,
       }));
 
-      // Guardar los datos de la compra
+      // Guardar los datos de la compra en Supabase
       const success = await this.sheetsService.insertDataToSheet(sheetRows);
 
       if (!success) {
-        await this.bot.sendMessage(chatId, '❌ Error al guardar los datos en Google Sheets.');
+        await this.bot.sendMessage(chatId, '❌ Error al guardar los datos en Supabase.');
         return;
       }
 
-      // Procesar información del cliente
+      // Procesar información del cliente en Supabase
       await this.processClientData(extractedData, fechaRegistro);
 
       const summary = this.generateSummary(extractedData, facturaId, fechaRegistro);
@@ -186,7 +187,7 @@ export class BotService {
   
       console.log('🔍 Buscando cliente existente con email:', email);
   
-      // Buscar cliente existente
+      // Buscar cliente existente en Supabase
       const existingClient = await this.sheetsService.getClientByEmail(email);
       
       console.log('🔍 Resultado de búsqueda:', existingClient ? 'Cliente encontrado' : 'Cliente no encontrado');
@@ -195,7 +196,7 @@ export class BotService {
         console.log('🔄 Cliente existente encontrado, actualizando estadísticas...');
         console.log('👤 Datos del cliente existente:', existingClient);
         
-        // Obtener historial de compras del cliente
+        // Obtener historial de compras del cliente desde Supabase
         const purchaseHistory = await this.sheetsService.getClientPurchaseHistory(email);
         console.log('📊 Historial de compras obtenido:', purchaseHistory.length, 'compras');
         
@@ -239,13 +240,13 @@ export class BotService {
         const updateSuccess = await this.sheetsService.updateClient(email, updates);
   
         if (updateSuccess) {
-          console.log('✅ Cliente actualizado exitosamente');
+          console.log('✅ Cliente actualizado exitosamente en Supabase');
         } else {
-          console.log('❌ Error al actualizar cliente');
+          console.log('❌ Error al actualizar cliente en Supabase');
         }
   
       } else {
-        console.log('➕ Cliente nuevo, agregando a la base de datos...');
+        console.log('➕ Cliente nuevo, agregando a Supabase...');
         
         // Extraer cédula del mensaje si está disponible
         const cedulaMatch = extractedData.cliente.match(/CC\s*(\d+)/i);
@@ -279,9 +280,9 @@ export class BotService {
         const addSuccess = await this.sheetsService.addNewClient(newClient);
   
         if (addSuccess) {
-          console.log('✅ Nuevo cliente agregado exitosamente');
+          console.log('✅ Nuevo cliente agregado exitosamente a Supabase');
         } else {
-          console.log('❌ Error al agregar nuevo cliente');
+          console.log('❌ Error al agregar nuevo cliente a Supabase');
         }
       }
   
@@ -292,36 +293,33 @@ export class BotService {
 
   // Nuevo método para manejar el comando /status
   private async handleStatusCommand(chatId: number): Promise<void> {
-    let statusMsg = '🔎 *Estado de conexión a Google Sheets:*\n\n';
-    // Verificar Products Sheet
+    let statusMsg = '🔎 *Estado de conexiones:*\n\n';
+    
+    // Verificar Products Sheet (Google Sheets)
     try {
       const products = await this.sheetsService.getProductsFromSheet();
       if (products.length > 0) {
-        statusMsg += '✅ Conexión exitosa a PRODUCTS_SHEET_ID. Productos encontrados: ' + products.length + '\n';
+        statusMsg += '✅ Google Sheets (Productos): ' + products.length + ' productos encontrados\n';
       } else {
-        statusMsg += '⚠️ Conexión a PRODUCTS_SHEET_ID realizada, pero no se encontraron productos o la hoja está vacía.\n';
+        statusMsg += '⚠️ Google Sheets (Productos): Sin productos\n';
       }
     } catch (error: any) {
-      statusMsg += '❌ Error en PRODUCTS_SHEET_ID: ' + (error.message || error.toString()) + '\n';
+      statusMsg += '❌ Google Sheets (Productos): ' + (error.message || error.toString()) + '\n';
     }
-    // Verificar Destination Sheet (intentando insertar una fila de prueba y borrarla sería lo ideal, pero aquí solo probamos acceso)
+    
+    // Verificar Supabase
     try {
-      // Intentar leer encabezados para verificar acceso
-      const DESTINATION_SHEET_ID = process.env.DESTINATION_SHEET_ID;
-      const response = await this.sheetsService["sheets"].spreadsheets.values.get({
-        spreadsheetId: DESTINATION_SHEET_ID,
-        range: 'A1:J1',
-      });
-      if (response.data && response.data.values) {
-        statusMsg += '✅ Conexión exitosa a DESTINATION_SHEET_ID.\n';
+      const supabaseOk = await this.sheetsService.testSupabaseConnection();
+      if (supabaseOk) {
+        statusMsg += '✅ Supabase (Ventas y Clientes): Conexión exitosa\n';
       } else {
-        statusMsg += '⚠️ Conexión a DESTINATION_SHEET_ID realizada, pero no se obtuvieron datos.\n';
+        statusMsg += '❌ Supabase (Ventas y Clientes): Error de conexión\n';
       }
     } catch (error: any) {
-      statusMsg += '❌ Error en DESTINATION_SHEET_ID: ' + (error.message || error.toString()) + '\n';
+      statusMsg += '❌ Supabase: ' + (error.message || error.toString()) + '\n';
     }
+    
     await this.bot.sendMessage(chatId, statusMsg, { parse_mode: 'Markdown' });
-
   }
 
   private generateCurrentDate(): string {
@@ -355,7 +353,8 @@ export class BotService {
     summary += `📅 *Fecha de registro:* ${fechaRegistro}\n`;
     summary += `👤 *Cliente:* ${data.cliente}\n`;
     summary += `📞 *Teléfono:* ${data.telefono}\n`;
-    summary += `📧 *Email:* ${data.email}\n\n`;
+    summary += `📧 *Email:* ${data.email}\n`;
+    summary += `🤖 *Origen:* Bot de Telegram\n\n`;
     summary += `🛒 *Productos:*\n`;
     
     data.productos.forEach((producto, index) => {
@@ -364,16 +363,16 @@ export class BotService {
       summary += `   • Cantidad: ${producto.cantidad}\n`;
       summary += `   • Precio sin IVA: ${this.formatCurrency(producto.precioSinIva)}\n`;
       summary += `   • Total: ${this.formatCurrency(producto.total)}\n\n`;
-    });
+   });
 
-    const totalGeneral = data.productos.reduce((sum, p) => sum + p.total, 0);
-    summary += `💰 *Total general:* ${this.formatCurrency(totalGeneral)}`;
+   const totalGeneral = data.productos.reduce((sum, p) => sum + p.total, 0);
+   summary += `💰 *Total general:* ${this.formatCurrency(totalGeneral)}`;
 
-    return summary;
-  }
+   return summary;
+ }
 
-  public start(): void {
-    console.log('🤖 Bot de Telegram iniciado y esperando mensajes...');
-    console.log('📱 Envía cualquier mensaje al bot para procesarlo');
-  }
+ public start(): void {
+   console.log('🤖 Bot de Telegram iniciado y esperando mensajes...');
+   console.log('📱 Envía cualquier mensaje al bot para procesarlo');
+ }
 }

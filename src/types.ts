@@ -32,6 +32,7 @@ export interface SheetRow {
   cliente: string;
   telefono: string;
   email: string;
+  isBot?: boolean;
 }
 
 export interface ClientInfo {

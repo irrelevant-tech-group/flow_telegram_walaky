@@ -1,19 +1,34 @@
 const { google } = require('googleapis');
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { ProductInfo, SheetRow, ClientInfo, ClientUpdate } from '../types';
 
 export class SheetsService {
   private sheets: any;
   private auth: any;
+  private supabase: SupabaseClient;
 
   constructor() {
+    // Configurar Google Sheets (solo para productos)
     this.auth = new google.auth.GoogleAuth({
       keyFile: './creds.json',
       scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     });
     
     this.sheets = google.sheets({ version: 'v4', auth: this.auth });
+
+    // Configurar Supabase (para ventas y clientes)
+    const supabaseUrl = process.env.SUPABASE_URL;
+    const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY;
+    
+    if (!supabaseUrl || !supabaseKey) {
+      throw new Error('SUPABASE_URL y SUPABASE_SERVICE_ROLE_KEY son requeridas');
+    }
+
+    this.supabase = createClient(supabaseUrl, supabaseKey);
+    console.log('✅ Conexión a Supabase establecida');
   }
 
+  // PRODUCTOS - Se mantiene en Google Sheets
   async getProductsFromSheet(): Promise<ProductInfo[]> {
     const PRODUCTS_SHEET_ID = process.env.PRODUCTS_SHEET_ID;
     
@@ -38,7 +53,7 @@ export class SheetsService {
         };
       });
 
-      console.log('📋 Productos cargados desde la hoja:');
+      console.log('📋 Productos cargados desde Google Sheets:');
       products.slice(0, 5).forEach(p => {
         console.log(`  ${p.codigo}: ${p.articulo} - $${p.precio} (IVA: ${p.impuesto}%)`);
       });
@@ -51,232 +66,245 @@ export class SheetsService {
     }
   }
 
+  // VENTAS - Ahora se guarda en Supabase
   async insertDataToSheet(data: SheetRow[]): Promise<boolean> {
-    const DESTINATION_SHEET_ID = process.env.DESTINATION_SHEET_ID;
-    
     try {
-      const values = data.map(row => [
-        row.codigo,
-        row.articulo,
-        row.cantidad,
-        row.precioSinIva,
-        row.total,
-        row.factura,
-        row.fecha,
-        row.cliente,
-        row.telefono,
-        row.email,
-      ]);
+      console.log('💾 Guardando ventas en Supabase...');
+      
+      const ventasData = data.map(row => ({
+        codigo: row.codigo,
+        articulo: row.articulo,
+        cantidad: row.cantidad,
+        precio_sin_iva: row.precioSinIva,
+        total: row.total,
+        factura: row.factura,
+        fecha: row.fecha,
+        cliente: row.cliente,
+        telefono: row.telefono,
+        email: row.email,
+        is_bot: true,
+        created_at: new Date().toISOString()
+      }));
 
-      await this.sheets.spreadsheets.values.append({
-        spreadsheetId: DESTINATION_SHEET_ID,
-        range: 'A:J',
-        valueInputOption: 'RAW',
-        resource: {
-          values,
-        },
-      });
+      const { data: insertedData, error } = await this.supabase
+        .from('walaky_sales')
+        .insert(ventasData);
 
+      if (error) {
+        console.error('❌ Error insertando ventas en Supabase:', error);
+        return false;
+      }
+
+      console.log('✅ Ventas guardadas exitosamente en Supabase (marcadas como bot=true)');
       return true;
     } catch (error) {
-      console.error('Error al insertar datos:', error);
+      console.error('❌ Error al insertar datos en Supabase:', error);
       return false;
     }
   }
 
+  // CLIENTES - Ahora se maneja en Supabase
   async getClientByEmail(email: string): Promise<ClientInfo | null> {
-    const CLIENTS_SHEET_ID = process.env.CLIENTS_SHEET_ID;
-    
     try {
-      const response = await this.sheets.spreadsheets.values.get({
-        spreadsheetId: CLIENTS_SHEET_ID,
-        range: 'A:L',
-      });
+      console.log(`🔍 Buscando cliente con email: ${email}`);
+      
+      const { data, error } = await this.supabase
+        .from('clientes_walaky')
+        .select('*')
+        .eq('email', email.toLowerCase())
+        .single();
 
-      const rows = response.data.values;
-      if (!rows || rows.length <= 1) return null;
+      if (error) {
+        if (error.code === 'PGRST116') {
+          // No se encontró el cliente
+          console.log('👤 Cliente no encontrado en Supabase');
+          return null;
+        }
+        console.error('❌ Error buscando cliente:', error);
+        return null;
+      }
 
-      // Buscar cliente por email (columna D, índice 3)
-      const clientRow = rows.find((row: any[], index: number) => {
-        if (index === 0) return false; // Skip header
-        return row[3] && row[3].toLowerCase() === email.toLowerCase();
-      });
-
-      if (!clientRow) return null;
-
+      console.log('✅ Cliente encontrado en Supabase');
       return {
-        id: clientRow[0] || '',
-        nombre: clientRow[1] || '',
-        cedula: clientRow[2] || '',
-        email: clientRow[3] || '',
-        fechaCumpleanos: clientRow[4] || '',
-        numeroCompras: parseInt(clientRow[5]) || 0,
-        totalGastado: parseFloat(clientRow[6]) || 0,
-        ticketPromedio: parseFloat(clientRow[7]) || 0,
-        productosUnicos: parseInt(clientRow[8]) || 0,
-        frecuenciaCompra: parseInt(clientRow[9]) || 0,
-        primeraCompra: clientRow[10] || '',
-        ultimaCompra: clientRow[11] || '',
+        id: data.sheet_id || '',
+        nombre: data.nombre || '',
+        cedula: data.cedula || '',
+        email: data.email || '',
+        fechaCumpleanos: data.fecha_cumpleanos || '',
+        numeroCompras: data.numero_compras || 0,
+        totalGastado: data.total_gastado || 0,
+        ticketPromedio: data.ticket_promedio || 0,
+        productosUnicos: data.productos_unicos || 0,
+        frecuenciaCompra: data.frecuencia_compra_dias || 0,
+        primeraCompra: data.primera_compra || '',
+        ultimaCompra: data.ultima_compra || '',
       };
 
     } catch (error) {
-      console.error('Error al buscar cliente:', error);
+      console.error('❌ Error al buscar cliente en Supabase:', error);
       return null;
     }
   }
 
   async updateClient(email: string, updates: ClientUpdate): Promise<boolean> {
-    const CLIENTS_SHEET_ID = process.env.CLIENTS_SHEET_ID;
-    
     try {
-      const response = await this.sheets.spreadsheets.values.get({
-        spreadsheetId: CLIENTS_SHEET_ID,
-        range: 'A:L',
-      });
-
-      const rows = response.data.values;
-      if (!rows || rows.length <= 1) return false;
-
-      // Encontrar la fila del cliente
-      const clientRowIndex = rows.findIndex((row: any[], index: number) => {
-        if (index === 0) return false;
-        return row[3] && row[3].toLowerCase() === email.toLowerCase();
-      });
-
-      if (clientRowIndex === -1) return false;
-
-      // Actualizar la fila (clientRowIndex + 1 porque las filas en Google Sheets empiezan en 1)
-      const rowNumber = clientRowIndex + 1;
+      console.log(`🔄 Actualizando cliente con email: ${email}`);
       
-      await this.sheets.spreadsheets.values.update({
-        spreadsheetId: CLIENTS_SHEET_ID,
-        range: `F${rowNumber}:L${rowNumber}`, // Columnas F a L (Número Compras hasta Última Compra)
-        valueInputOption: 'RAW',
-        resource: {
-          values: [[
-            updates.numeroCompras,
-            updates.totalGastado,
-            updates.ticketPromedio,
-            updates.productosUnicos,
-            updates.frecuenciaCompra,
-            updates.primeraCompra,
-            updates.ultimaCompra
-          ]]
-        }
-      });
+      const updateData = {
+        numero_compras: updates.numeroCompras,
+        total_gastado: updates.totalGastado,
+        ticket_promedio: updates.ticketPromedio,
+        productos_unicos: updates.productosUnicos,
+        frecuencia_compra_dias: updates.frecuenciaCompra,
+        primera_compra: updates.primeraCompra,
+        ultima_compra: updates.ultimaCompra,
+        updated_at: new Date().toISOString()
+      };
 
+      const { error } = await this.supabase
+        .from('clientes_walaky')
+        .update(updateData)
+        .eq('email', email.toLowerCase());
+
+      if (error) {
+        console.error('❌ Error actualizando cliente:', error);
+        return false;
+      }
+
+      console.log('✅ Cliente actualizado exitosamente en Supabase');
       return true;
     } catch (error) {
-      console.error('Error al actualizar cliente:', error);
+      console.error('❌ Error al actualizar cliente en Supabase:', error);
       return false;
     }
   }
 
   async addNewClient(clientInfo: ClientInfo): Promise<boolean> {
-    const CLIENTS_SHEET_ID = process.env.CLIENTS_SHEET_ID;
-    
     try {
-      await this.sheets.spreadsheets.values.append({
-        spreadsheetId: CLIENTS_SHEET_ID,
-        range: 'A:L',
-        valueInputOption: 'RAW',
-        resource: {
-          values: [[
-            clientInfo.id,
-            clientInfo.nombre,
-            clientInfo.cedula,
-            clientInfo.email,
-            clientInfo.fechaCumpleanos,
-            clientInfo.numeroCompras,
-            clientInfo.totalGastado,
-            clientInfo.ticketPromedio,
-            clientInfo.productosUnicos,
-            clientInfo.frecuenciaCompra,
-            clientInfo.primeraCompra,
-            clientInfo.ultimaCompra
-          ]]
-        }
-      });
+      console.log('➕ Agregando nuevo cliente a Supabase...');
+      
+      const newClientData = {
+        sheet_id: clientInfo.id,
+        nombre: clientInfo.nombre,
+        cedula: clientInfo.cedula,
+        email: clientInfo.email.toLowerCase(),
+        fecha_cumpleanos: clientInfo.fechaCumpleanos,
+        numero_compras: clientInfo.numeroCompras,
+        total_gastado: clientInfo.totalGastado,
+        ticket_promedio: clientInfo.ticketPromedio,
+        productos_unicos: clientInfo.productosUnicos,
+        frecuencia_compra_dias: clientInfo.frecuenciaCompra,
+        primera_compra: clientInfo.primeraCompra,
+        ultima_compra: clientInfo.ultimaCompra,
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString()
+      };
 
+      const { error } = await this.supabase
+        .from('clientes_walaky')
+        .insert([newClientData]);
+
+      if (error) {
+        console.error('❌ Error agregando cliente:', error);
+        return false;
+      }
+
+      console.log('✅ Nuevo cliente agregado exitosamente a Supabase');
       return true;
     } catch (error) {
-      console.error('Error al agregar nuevo cliente:', error);
+      console.error('❌ Error al agregar nuevo cliente a Supabase:', error);
       return false;
     }
   }
 
   async getNextClientId(): Promise<string> {
-    const CLIENTS_SHEET_ID = process.env.CLIENTS_SHEET_ID;
-    
     try {
-      const response = await this.sheets.spreadsheets.values.get({
-        spreadsheetId: CLIENTS_SHEET_ID,
-        range: 'A:A', // Solo columna A (ID)
-      });
-  
-      const rows = response.data.values;
-      if (!rows || rows.length <= 1) {
-        // Si no hay datos o solo hay header, empezar con 001
+      console.log('🔢 Obteniendo próximo ID de cliente...');
+      
+      const { data, error } = await this.supabase
+        .from('clientes_walaky')
+        .select('sheet_id')
+        .order('sheet_id', { ascending: false })
+        .limit(1);
+
+      if (error) {
+        console.error('❌ Error obteniendo último ID:', error);
         return '001';
       }
-  
-      // Obtener todos los IDs (saltando el header)
-      const ids = rows.slice(1).map((row: any[]) => {
-        const id = row[0];
-        // Convertir a número si es posible, sino retornar 0
-        return id && !isNaN(parseInt(id)) ? parseInt(id) : 0;
-      });
-  
-      // Encontrar el ID más alto
-      const maxId = Math.max(...ids);
+
+      if (!data || data.length === 0) {
+        console.log('📝 No hay clientes, empezando con ID 001');
+        return '001';
+      }
+
+      const lastId = data[0].sheet_id;
+      const numericId = parseInt(lastId) || 0;
+      const nextId = (numericId + 1).toString().padStart(3, '0');
       
-      // Generar el siguiente ID secuencial con padding de 3 dígitos
-      const nextId = (maxId + 1).toString().padStart(3, '0');
-      
-      console.log(`🔢 Próximo ID de cliente: ${nextId} (último ID encontrado: ${maxId})`);
-      
+      console.log(`🔢 Próximo ID de cliente: ${nextId} (último ID: ${lastId})`);
       return nextId;
-  
+
     } catch (error) {
-      console.error('Error al obtener próximo ID de cliente:', error);
-      // En caso de error, retornar un ID por defecto
+      console.error('❌ Error al obtener próximo ID de cliente:', error);
       return '001';
     }
   }
 
   async getClientPurchaseHistory(email: string): Promise<SheetRow[]> {
-    const DESTINATION_SHEET_ID = process.env.DESTINATION_SHEET_ID;
-    
     try {
-      const response = await this.sheets.spreadsheets.values.get({
-        spreadsheetId: DESTINATION_SHEET_ID,
-        range: 'A:J',
-      });
+      console.log(`📊 Obteniendo historial de compras para: ${email}`);
+      
+      const { data, error } = await this.supabase
+        .from('walaky_sales')
+        .select('*')
+        .eq('email', email.toLowerCase())
+        .order('fecha', { ascending: false });
 
-      const rows = response.data.values;
-      if (!rows || rows.length <= 1) return [];
+      if (error) {
+        console.error('❌ Error obteniendo historial:', error);
+        return [];
+      }
 
-      // Filtrar compras por email (columna J, índice 9)
-      const clientPurchases = rows.filter((row: any[], index: number) => {
-        if (index === 0) return false; // Skip header
-        return row[9] && row[9].toLowerCase() === email.toLowerCase();
-      }).map((row: any[]) => ({
-        codigo: row[0] || '',
-        articulo: row[1] || '',
-        cantidad: parseInt(row[2]) || 0,
-        precioSinIva: parseFloat(row[3]) || 0,
-        total: parseFloat(row[4]) || 0,
-        factura: row[5] || '',
-        fecha: row[6] || '',
-        cliente: row[7] || '',
-        telefono: row[8] || '',
-        email: row[9] || '',
+      const purchaseHistory = data.map(row => ({
+        codigo: row.codigo || '',
+        articulo: row.articulo || '',
+        cantidad: row.cantidad || 0,
+        precioSinIva: row.precio_sin_iva || 0,
+        total: row.total || 0,
+        factura: row.factura || '',
+        fecha: row.fecha || '',
+        cliente: row.cliente || '',
+        telefono: row.telefono || '',
+        email: row.email || '',
+        isBot: row.is_bot || false,
       }));
 
-      return clientPurchases;
+      console.log(`📊 Historial obtenido: ${purchaseHistory.length} compras`);
+      return purchaseHistory;
     } catch (error) {
-      console.error('Error al obtener historial de compras:', error);
+      console.error('❌ Error al obtener historial de compras:', error);
       return [];
+    }
+  }
+
+  // Método para verificar la conexión con Supabase
+  async testSupabaseConnection(): Promise<boolean> {
+    try {
+      const { data, error } = await this.supabase
+        .from('walaky_sales')
+        .select('id')
+        .limit(1);
+
+      if (error) {
+        console.error('❌ Error conectando con Supabase:', error);
+        return false;
+      }
+
+      console.log('✅ Conexión con Supabase verificada');
+      return true;
+    } catch (error) {
+      console.error('❌ Error verificando conexión con Supabase:', error);
+      return false;
     }
   }
 }

@@ -8,8 +8,8 @@ const requiredEnvVars = [
   'TELEGRAM_BOT_TOKEN',
   'GEMINI_API_KEY',
   'PRODUCTS_SHEET_ID',
-  'DESTINATION_SHEET_ID',
-  'CLIENTS_SHEET_ID',
+  'SUPABASE_URL',
+  'SUPABASE_SERVICE_ROLE_KEY',
 ];
 
 console.log('🔍 Verificando configuración...');
