@@ -449,72 +449,113 @@ export class GeminiService {
     return now.toLocaleDateString('es-ES');
   }
 
-  private findBestProductMatch(searchText: string, searchCode: string, products: ProductInfo[]): ProductInfo | null {
-    const searchLower = searchText.toLowerCase();
+  // Mejora en el método findBestProductMatch
+private findBestProductMatch(searchText: string, searchCode: string, products: ProductInfo[]): ProductInfo | null {
+  const searchLower = searchText.toLowerCase().trim();
+  
+  // 1. Si viene un código, buscarlo primero
+  if (searchCode && searchCode.trim()) {
+    const exactCodeMatch = products.find(p => p.codigo.toLowerCase() === searchCode.toLowerCase());
+    if (exactCodeMatch) return exactCodeMatch;
+  }
+
+  // 2. Mapeo inteligente de términos comerciales comunes
+  const smartMappings: { [key: string]: string[] } = {
+    'shampoo': ['shampoo', 'champú', 'champu'],
+    'tratamiento': ['tratamiento', 'mascarilla', 'mask', 'acondicionador'],
+    'suero': ['suero', 'serum'],
+    'tónico': ['tonico', 'tónico', 'locion', 'loción'],
+    'exfoliante': ['exfoliante', 'scrub', 'peeling'],
+    'crema': ['crema', 'cream', 'styling'],
+    'aceite': ['aceite', 'oil'],
+    'gel': ['gel'],
+    'mousse': ['mousse', 'espuma'],
+    'spray': ['spray', 'atomizador'],
+    'termoprotector': ['termoprotector', 'termo', 'protector'],
+    'cannabis': ['cannabis', 'hemp', 'canabis'],
+    'café': ['cafe', 'café', 'coffee'],
+    'herbal': ['herbal', 'hierbas', 'natural'],
+    'frutal': ['frutal', 'frutas', 'frutales']
+  };
+
+  // 3. Búsqueda inteligente por palabras clave
+  for (const product of products) {
+    const productLower = product.articulo.toLowerCase();
     
-    // 1. Búsqueda exacta por código
-    if (searchCode) {
-      const exactCodeMatch = products.find(p => p.codigo.toLowerCase() === searchCode.toLowerCase());
-      if (exactCodeMatch) return exactCodeMatch;
-    }
-
-    // 2. Mapeo de alias comunes a productos
-    const productAliases: { [key: string]: string[] } = {
-      'shampoo herbal': ['shampoo', 'herbal'],
-      'shampoo frutal': ['shampoo', 'frutal'], 
-      'tratamiento': ['tratamiento', 'mascarilla'],
-      'tónico de cannabis': ['tonico', 'cannabis'],
-      'suero capilar': ['suero', 'capilar'],
-      'exfoliante de café': ['exfoliante', 'cafe'],
-      'styling cream': ['styling', 'cream', 'crema'],
-      'termoprotector': ['termoprotector', 'termo']
-    };
-
-    // 3. Búsqueda por alias
-    for (const [productKey, aliases] of Object.entries(productAliases)) {
-      const matchesAllAliases = aliases.every(alias => searchLower.includes(alias.toLowerCase()));
-      if (matchesAllAliases) {
-        const product = products.find(p => 
-          p.articulo.toLowerCase().includes(productKey) || 
-          aliases.some(alias => p.articulo.toLowerCase().includes(alias))
-        );
-        if (product) return product;
+    // Verificar coincidencias directas de palabras
+    const searchWords = searchLower.split(/\s+/).filter(w => w.length > 2);
+    let matchCount = 0;
+    
+    for (const word of searchWords) {
+      // Buscar la palabra directamente
+      if (productLower.includes(word)) {
+        matchCount++;
+        continue;
+      }
+      
+      // Buscar sinónimos
+      for (const [key, synonyms] of Object.entries(smartMappings)) {
+        if (synonyms.includes(word) && productLower.includes(key)) {
+          matchCount++;
+          break;
+        }
       }
     }
-
-    // 4. Búsqueda por palabras clave individuales
-    const keywordMatches = products.filter(p => {
-      const productLower = p.articulo.toLowerCase();
-      const searchWords = searchLower.split(/\s+/);
-      return searchWords.some(word => 
-        word.length > 2 && productLower.includes(word)
-      );
-    });
-
-    if (keywordMatches.length > 0) {
-      // Retornar el que tenga más coincidencias
-      return keywordMatches.reduce((best, current) => {
-        const bestMatches = this.countWordMatches(searchLower, best.articulo.toLowerCase());
-        const currentMatches = this.countWordMatches(searchLower, current.articulo.toLowerCase());
-        return currentMatches > bestMatches ? current : best;
-      });
+    
+    // Si coincide con al menos el 60% de las palabras, es un buen match
+    if (matchCount / searchWords.length >= 0.6) {
+      console.log(`✅ Producto encontrado por palabras clave: "${searchText}" -> ${product.articulo}`);
+      return product;
     }
-
-    // 5. Búsqueda difusa (similar)
-    const fuzzyMatches = products.filter(p => 
-      this.calculateSimilarity(searchLower, p.articulo.toLowerCase()) > 0.3
-    );
-
-    if (fuzzyMatches.length > 0) {
-      return fuzzyMatches.reduce((best, current) => {
-        const bestSim = this.calculateSimilarity(searchLower, best.articulo.toLowerCase());
-        const currentSim = this.calculateSimilarity(searchLower, current.articulo.toLowerCase());
-        return currentSim > bestSim ? current : best;
-      });
-    }
-
-    return null;
   }
+
+  // 4. Búsqueda difusa para typos y variaciones
+  const fuzzyMatches = products.map(product => ({
+    product,
+    similarity: this.calculateFuzzyMatch(searchLower, product.articulo.toLowerCase())
+  })).filter(match => match.similarity > 0.4)
+    .sort((a, b) => b.similarity - a.similarity);
+
+  if (fuzzyMatches.length > 0) {
+    console.log(`✅ Producto encontrado por similitud: "${searchText}" -> ${fuzzyMatches[0].product.articulo}`);
+    return fuzzyMatches[0].product;
+  }
+
+  // 5. Último recurso: buscar por palabras sueltas
+  for (const word of searchLower.split(/\s+/).filter(w => w.length > 3)) {
+    const partialMatch = products.find(p => 
+      p.articulo.toLowerCase().includes(word)
+    );
+    if (partialMatch) {
+      console.log(`⚠️ Producto encontrado por palabra parcial: "${word}" -> ${partialMatch.articulo}`);
+      return partialMatch;
+    }
+  }
+
+  console.warn(`❌ No se encontró producto para: "${searchText}"`);
+  return null;
+}
+
+private calculateFuzzyMatch(search: string, target: string): number {
+  // Implementación mejorada de similitud
+  const searchWords = search.split(/\s+/);
+  const targetWords = target.split(/\s+/);
+  
+  let totalSimilarity = 0;
+  let maxPossible = 0;
+  
+  for (const searchWord of searchWords) {
+    let bestMatch = 0;
+    for (const targetWord of targetWords) {
+      const similarity = this.calculateSimilarity(searchWord, targetWord);
+      bestMatch = Math.max(bestMatch, similarity);
+    }
+    totalSimilarity += bestMatch;
+    maxPossible += 1;
+  }
+  
+  return maxPossible > 0 ? totalSimilarity / maxPossible : 0;
+}
 
   private countWordMatches(search: string, target: string): number {
     const searchWords = search.split(/\s+/).filter(w => w.length > 2);
