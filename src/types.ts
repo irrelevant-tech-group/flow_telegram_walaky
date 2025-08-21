@@ -12,7 +12,7 @@ export interface ExtractedData {
     cantidad: number;
     precioSinIva: number;
     total: number;
-    descuento?: number; // Nuevo campo para descuentos
+    descuento?: number;
   }>;
   factura: string;
   fecha: string;
@@ -34,7 +34,7 @@ export interface SheetRow {
   telefono: string;
   email: string;
   isBot?: boolean;
-  descuento?: number; // Nuevo campo para descuentos
+  descuento?: number;
 }
 
 export interface ClientInfo {
@@ -62,12 +62,11 @@ export interface ClientUpdate {
   ultimaCompra: string;
 }
 
-// Nuevos tipos para validación
 export interface ValidationResult {
   isValid: boolean;
   warnings: string[];
   errors: string[];
-  confidence: number; // 0-100 confianza en la extracción
+  confidence: number;
 }
 
 export interface ProcessingStats {
