@@ -82,7 +82,6 @@ export class SheetsService {
         cliente: row.cliente,
         telefono: row.telefono,
         email: row.email,
-        descuento: row.descuento || 0, // Nuevo campo para descuentos
         is_bot: true,
         created_at: new Date().toISOString()
       }));
@@ -96,7 +95,7 @@ export class SheetsService {
         return false;
       }
 
-      console.log('✅ Ventas guardadas exitosamente en Supabase (incluye descuentos)');
+      console.log('✅ Ventas guardadas exitosamente en Supabase');
       return true;
     } catch (error) {
       console.error('❌ Error al insertar datos en Supabase:', error);
@@ -278,7 +277,6 @@ export class SheetsService {
         telefono: row.telefono || '',
         email: row.email || '',
         isBot: row.is_bot || false,
-        descuento: row.descuento || 0, // Incluir descuento en historial
       }));
 
       console.log(`📊 Historial obtenido: ${purchaseHistory.length} compras`);
